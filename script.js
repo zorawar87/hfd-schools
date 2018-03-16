@@ -66,10 +66,12 @@ function formatSince(v){
   return parseInt(v[5]+v[6]+v[7]+v[8]);
 }
 
+// string formatting for the feedback spring
 function formatFdbk(n, y){
   return fdbkIHTML.replace(/{NN}/,n).replace(/{PL}/,(n>1?'s':'')).replace(/{YYYY}/,y);
 }
 
+// dynamically updates markers and the feedback text in the user configuration
 function updateSlider(value){
   layers.forEach(function (e){ e.remove(); layers=[];})
   schoolsIn06106.forEach(function (el) {
