@@ -1,0 +1,801 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zzzz-zzzz",
+      "name" : "CT Schools by Type w/ Town Boundaries",
+      "attribution" : "State Department of Education",
+      "averageRating" : 0,
+      "category" : "Education",
+      "description" : "This dataset contains the official listing of all public educational organizations in Connecticut as of April 25, 2014.  Data elements include name, organization type, organization code, address, open date, interdistrict magnet status and grades offered.\r\n\r\nIncluded data are collected by the CT State Department of Education (CSDE) through the Directory Manager (DM) portal in accordance with Connecticut General Statute (C.G.S.) 10-4. This critical information is used by other data collection systems and for state and federal reporting. \r\n\r\nFor more information regarding DM, please visit http://www.csde.state.ct.us/public/directorymanager/default.asp",
+      "displayType" : "map",
+      "downloadCount" : 0,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1477676465,
+      "moderationStatus" : true,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "provenance" : "community",
+      "publicationAppendEnabled" : false,
+      "publicationGroup" : 1598904,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1477676292,
+      "rowsUpdatedBy" : "nyku-jy9c",
+      "tableId" : 13876691,
+      "totalTimesRated" : 0,
+      "viewCount" : 0,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 275256686,
+        "name" : "School Name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997332,
+        "width" : 148,
+        "format" : { }
+      }, {
+        "id" : 275256687,
+        "name" : "Organization Type",
+        "dataTypeName" : "text",
+        "fieldName" : "organization_type",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997333,
+        "width" : 304,
+        "format" : { }
+      }, {
+        "id" : 275256688,
+        "name" : "Organization Code",
+        "dataTypeName" : "text",
+        "fieldName" : "organization_code",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997334,
+        "width" : 304,
+        "format" : { }
+      }, {
+        "id" : 275256689,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 5,
+        "renderTypeName" : "location",
+        "tableColumnId" : 19997354,
+        "width" : 220,
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 275256690,
+        "name" : "Zipcode",
+        "dataTypeName" : "text",
+        "fieldName" : "zipcode",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997335,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256691,
+        "name" : "Phone",
+        "dataTypeName" : "text",
+        "fieldName" : "phone",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997336,
+        "width" : 160,
+        "format" : { }
+      }, {
+        "id" : 275256692,
+        "name" : "PreKindergarten",
+        "dataTypeName" : "text",
+        "fieldName" : "prekindergarten",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997338,
+        "width" : 280,
+        "format" : { }
+      }, {
+        "id" : 275256693,
+        "name" : "Kindergarten",
+        "dataTypeName" : "text",
+        "fieldName" : "kindergarten",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997339,
+        "width" : 244,
+        "format" : { }
+      }, {
+        "id" : 275256694,
+        "name" : "Grade 1",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_1",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997340,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256695,
+        "name" : "Grade 2",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_2",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997341,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256696,
+        "name" : "Grade 3",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_3",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997342,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256697,
+        "name" : "Grade 4",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_4",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997343,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256698,
+        "name" : "Grade 5",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_5",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997344,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256699,
+        "name" : "Grade 6",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_6",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997345,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256700,
+        "name" : "Grade 7",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_7",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997346,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256701,
+        "name" : "Grade 8",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_8",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997347,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256702,
+        "name" : "Grade 9",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_9",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997348,
+        "width" : 184,
+        "format" : { }
+      }, {
+        "id" : 275256703,
+        "name" : "Grade 10",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_10",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997349,
+        "width" : 196,
+        "format" : { }
+      }, {
+        "id" : 275256704,
+        "name" : "Grade 11",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_11",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997350,
+        "width" : 196,
+        "format" : { }
+      }, {
+        "id" : 275256705,
+        "name" : "Grade 12",
+        "dataTypeName" : "text",
+        "fieldName" : "grade_12",
+        "position" : 22,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997351,
+        "width" : 196,
+        "format" : { }
+      }, {
+        "id" : 275256706,
+        "name" : "Student Open Date",
+        "dataTypeName" : "text",
+        "fieldName" : "student_open_date",
+        "position" : 23,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997352,
+        "width" : 304,
+        "format" : { }
+      }, {
+        "id" : 275256707,
+        "name" : "Interdistrict Magnet",
+        "dataTypeName" : "text",
+        "fieldName" : "interdistrict_magnet",
+        "position" : 24,
+        "renderTypeName" : "text",
+        "tableColumnId" : 19997353,
+        "width" : 340,
+        "format" : { }
+      } ],
+      "displayFormat" : {
+        "viewport" : {
+          "ymin" : 41.16373802196,
+          "xmin" : -73.965732905628,
+          "ymax" : 41.960886172602,
+          "xmax" : -70.801670406069
+        },
+        "disableGeolocator" : false,
+        "bkgdLayers" : [ {
+          "layerKey" : "Google Roadmap",
+          "opacity" : 1
+        } ],
+        "exclusiveLayers" : false,
+        "legendDetails" : {
+          "showConditional" : true,
+          "position" : "topRight"
+        },
+        "viewDefinitions" : [ {
+          "uid" : "self",
+          "highlightColor" : "#ddeaf0",
+          "color" : "#0000ff",
+          "plot" : {
+            "locationId" : 19997354,
+            "titleId" : 19997332,
+            "descriptionColumns" : [ {
+              "tableColumnId" : 19997333
+            }, {
+              "tableColumnId" : 19997337
+            }, {
+              "tableColumnId" : 19997354
+            } ]
+          },
+          "flyoutsNoLabel" : true,
+          "opacity" : 1,
+          "plotStyle" : "point"
+        }, {
+          "uid" : "evyv-fqzg",
+          "opacity" : 1
+        } ]
+      },
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "rdfSubject" : "0",
+        "conditionalFormatting" : [ {
+          "condition" : {
+            "children" : [ {
+              "tableColumnId" : 19997333,
+              "_key" : "(19997333|EQUALS|Public Schools)",
+              "value" : "Public Schools",
+              "operator" : "EQUALS"
+            }, {
+              "tableColumnId" : 19997353,
+              "_key" : "(19997353|EQUALS|0)",
+              "value" : "0",
+              "operator" : "EQUALS"
+            } ],
+            "_key" : "((19997333|EQUALS|Public Schools)|AND|(19997353|EQUALS|0))",
+            "operator" : "and"
+          },
+          "color" : "#0000ff",
+          "description" : "District Schools"
+        }, {
+          "condition" : {
+            "children" : [ {
+              "tableColumnId" : 19997333,
+              "_key" : "(19997333|EQUALS|Public Schools)",
+              "value" : "Public Schools",
+              "operator" : "EQUALS"
+            }, {
+              "tableColumnId" : 19997353,
+              "_key" : "(19997353|EQUALS|1)",
+              "value" : "1",
+              "operator" : "EQUALS"
+            } ],
+            "_key" : "((19997333|EQUALS|Public Schools)|AND|(19997353|EQUALS|1))",
+            "operator" : "and"
+          },
+          "color" : "#00ff00",
+          "description" : "Magnet Schools"
+        }, {
+          "condition" : {
+            "tableColumnId" : 19997333,
+            "_key" : "(19997333|EQUALS|Public Charter Schools)",
+            "value" : "Public Charter Schools",
+            "operator" : "EQUALS"
+          },
+          "color" : "#ff0000",
+          "description" : "Charter Schools"
+        }, {
+          "condition" : {
+            "tableColumnId" : 19997333,
+            "_key" : "(19997333|EQUALS|CT Technical High Schools)",
+            "value" : "CT Technical High Schools",
+            "operator" : "EQUALS"
+          },
+          "color" : "#ffff00",
+          "description" : "Technical Schools"
+        }, {
+          "condition" : {
+            "tableColumnId" : 19997333,
+            "_key" : "(19997333|EQUALS|State Agency Facilities)",
+            "value" : "State Agency Facilities",
+            "operator" : "EQUALS"
+          },
+          "color" : "#ff9900",
+          "description" : "State Facilities"
+        }, {
+          "condition" : {
+            "tableColumnId" : 19997333,
+            "_key" : "(19997333|EQUALS|Endowed and Incorporated Academies Schools)",
+            "value" : "Endowed and Incorporated Academies Schools",
+            "operator" : "EQUALS"
+          },
+          "color" : "#00ffff",
+          "description" : "Endowed Academies"
+        }, {
+          "condition" : {
+            "tableColumnId" : 19997333,
+            "_key" : "(19997333|EQUALS|Regional Education Service Center Schools)",
+            "value" : "Regional Education Service Center Schools",
+            "operator" : "EQUALS"
+          },
+          "color" : "#000000",
+          "description" : "RESC Schools"
+        }, {
+          "condition" : {
+            "tableColumnId" : 19997333,
+            "_key" : "(19997333|EQUALS|Regional Schools)",
+            "value" : "Regional Schools",
+            "operator" : "EQUALS"
+          },
+          "color" : "#ff00ff",
+          "description" : "Regional Schools"
+        } ],
+        "availableDisplayTypes" : [ "map", "table", "fatrow", "page" ],
+        "renderTypeConfig" : {
+          "visible" : {
+            "map" : true
+          },
+          "active" : {
+            "table" : {
+              "id" : "self"
+            }
+          }
+        }
+      },
+      "query" : {
+        "filterCondition" : {
+          "type" : "operator",
+          "value" : "AND",
+          "children" : [ {
+            "type" : "operator",
+            "value" : "GREATER_THAN",
+            "children" : [ {
+              "columnId" : 275256689,
+              "type" : "column",
+              "value" : "LONGITUDE"
+            }, {
+              "type" : "literal",
+              "value" : "-73.128025386214"
+            } ]
+          }, {
+            "type" : "operator",
+            "value" : "LESS_THAN",
+            "children" : [ {
+              "columnId" : 275256689,
+              "type" : "column",
+              "value" : "LONGITUDE"
+            }, {
+              "type" : "literal",
+              "value" : "-72.249119136336"
+            } ]
+          }, {
+            "type" : "operator",
+            "value" : "GREATER_THAN",
+            "children" : [ {
+              "columnId" : 275256689,
+              "type" : "column",
+              "value" : "LATITUDE"
+            }, {
+              "type" : "literal",
+              "value" : "41.695474704344"
+            } ]
+          }, {
+            "type" : "operator",
+            "value" : "LESS_THAN",
+            "children" : [ {
+              "columnId" : 275256689,
+              "type" : "column",
+              "value" : "LATITUDE"
+            }, {
+              "type" : "literal",
+              "value" : "41.916073778272"
+            } ]
+          } ]
+        },
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 275256687,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "nyku-jy9c",
+        "displayName" : "Stephanie O'Day",
+        "screenName" : "Stephanie O'Day",
+        "type" : "interactive",
+        "flags" : [ "organizationMember" ]
+      },
+      "tags" : [ "education", "school", "district", "directory" ],
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ 375, "00404951-F6A4-4421-A425-CC69B9DADAD7", 375, 1477676201, "878954", 1477676225, "878954", null, "Parkville Community School", "Public Schools", "0641511", [ "{\"address\":\"47 New Park Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106-2160\"}", "41.755667", "-72.706943", null, false ], "06106-2160", "860-695-4721", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 302, "00D12830-59FE-4A51-9655-AAAC8E45F5D7", 302, 1477676201, "878954", 1477676225, "878954", null, "Smith Middle School", "Public Schools", "0545211", [ "{\"address\":\"216 Addison Rd.\",\"city\":\"Glastonbury\",\"state\":\"CT\",\"zip\":\"06033\"}", "41.722628", "-72.58011", null, false ], "06033", "860-652-7040", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 300, "0197C5DF-3C31-449C-B44E-DC478AE013F4", 300, 1477676201, "878954", 1477676225, "878954", null, "Gideon Welles School", "Public Schools", "0540811", [ "{\"address\":\"1029 Neipsic Rd.\",\"city\":\"Glastonbury\",\"state\":\"CT\",\"zip\":\"06033-2571\"}", "41.700176", "-72.546924", null, false ], "06033-2571", "860-652-7800", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "01Jul1997 0:00:00.000", "0" ]
+, [ 222, "021CBF7A-6DCE-468C-89E7-0907AB3C2D84", 222, 1477676201, "878954", 1477676225, "878954", null, "East Hartford High School", "Public Schools", "0436211", [ "{\"address\":\"869 Forbes St.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118-1921\"}", "41.752205", "-72.605383", null, false ], "06118-1921", "860-622-5200", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 874, "022893B8-B792-43F5-B003-F307C7321A27", 874, 1477676201, "878954", 1477676225, "878954", null, "Tolland Intermediate School", "Public Schools", "1420211", [ "{\"address\":\"96 Old Post RD\",\"city\":\"Tolland\",\"state\":\"CT\",\"zip\":\"06084-3325\"}", "41.869062", "-72.375485", null, false ], "06084-3325", "860-870-6885", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 218, "03FB471F-22E3-44A6-AB9C-6260A7D404AD", 218, 1477676201, "878954", 1477676225, "878954", null, "Governor William Pitkin School", "Public Schools", "0432011", [ "{\"address\":\"330 Hills St.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118-2910\"}", "41.742084", "-72.590162", null, false ], "06118-2910", "860-622-5480", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 900, "054D3A90-E603-45A7-81AA-72CBCF5C7D7A", 900, 1477676201, "878954", 1477676225, "878954", null, "Northeast School", "Public Schools", "1460311", [ "{\"address\":\"69 East St.\",\"city\":\"Rockville\",\"state\":\"CT\",\"zip\":\"06066-3837\"}", "41.861552", "-72.431697", null, false ], "06066-3837", "860-870-6080", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 14, "08B379C7-CFDC-4059-9BD5-829E0137D4EB", 14, 1477676201, "878954", 1477676225, "878954", null, "Avon Middle School", "Public Schools", "0045111", [ "{\"address\":\"375 West Avon Rd.\",\"city\":\"Avon\",\"state\":\"CT\",\"zip\":\"06001-2208\"}", "41.79116", "-72.862902", null, false ], "06001-2208", "860-404-4770", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 372, "09C54173-BB43-4626-A25C-E14FB8ADE8C6", 372, 1477676201, "878954", 1477676225, "878954", null, "McDonough Middle School", "Public Schools", "0641211", [ "{\"address\":\"111 Hillside Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106-3545\"}", "41.750387", "-72.697814", null, false ], "06106-3545", "860-695-4260", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 802, "09E2AB8C-E469-415D-AA0F-29CC41AFC243", 802, 1477676201, "878954", 1477676225, "878954", null, "South Windsor High School", "Public Schools", "1326211", [ "{\"address\":\"161 Nevers Rd.\",\"city\":\"South Windsor\",\"state\":\"CT\",\"zip\":\"06074-2129\"}", "41.843168", "-72.551702", null, false ], "06074-2129", "860-648-5000", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 452, "0E03DD60-EE4F-48D5-ABA6-86EEC94C8C91", 452, 1477676201, "878954", 1477676225, "878954", null, "Verplanck School", "Public Schools", "0771211", [ "{\"address\":\"126 Olcott St.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040-2632\"}", "41.773722", "-72.553471", null, false ], "06040-2632", "860-647-3383", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 974, "0E2E49E5-9A21-41C1-AD8B-EF7731645CD7", 974, 1477676201, "878954", 1477676225, "878954", null, "Whiting Lane School", "Public Schools", "1551311", [ "{\"address\":\"47 Whiting Ln.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06119-1642\"}", "41.762726", "-72.724195", null, false ], "06119-1642", "860-233-8541", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 970, "0F61DDFF-5681-457C-8223-DCC52D522C96", 970, 1477676201, "878954", 1477676225, "878954", null, "Duffy School", "Public Schools", "1550611", [ "{\"address\":\"95 Westminster St.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06107-3353\"}", "41.746712", "-72.752606", null, false ], "06107-3353", "860-521-0110", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 398, "12B416F6-04D1-4F68-B541-60CE9A3A4A42", 398, 1477676201, "878954", 1477676225, "878954", null, "Sports and Medical Sciences Academy", "Public Schools", "0646511", [ "{\"address\":\"280 Huyshope Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.752365", "-72.660526", null, false ], "06106", "860-695-6900", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "01Jul2002 0:00:00.000", "1" ]
+, [ 776, "131BE901-7DDB-4163-8318-048DC4C202B9", 776, 1477676201, "878954", 1477676225, "878954", null, "Simsbury High School", "Public Schools", "1286111", [ "{\"address\":\"34 Farms Village Rd.\",\"city\":\"Simsbury\",\"state\":\"CT\",\"zip\":\"06070-2320\"}", "41.870041", "-72.82272", null, false ], "06070-2320", "860-658-0451", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 223, "131F5B34-8F35-4572-BF1A-39BDC862295C", 223, 1477676201, "878954", 1477676225, "878954", null, "Connecticut IB Academy", "Public Schools", "0436311", [ "{\"address\":\"857 Forbes St.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118\"}", "41.75256", "-72.604839", null, false ], "06118", "860-622-5590", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2003 0:00:00.000", "1" ]
+, [ 382, "15B5E49B-BBB9-49D4-AFDB-72EE8F230A9A", 382, 1477676201, "878954", 1477676225, "878954", null, "Burr School", "Public Schools", "0642311", [ "{\"address\":\"400 Wethersfield Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114-1414\"}", "41.744899", "-72.67309", null, false ], "06114-1414", "860-695-3080", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 775, "160A2F94-6DB1-46D1-BECE-D2486539797E", 775, 1477676201, "878954", 1477676225, "878954", null, "Henry James Memorial School", "Public Schools", "1285111", [ "{\"address\":\"155 Firetown Rd.\",\"city\":\"Simsbury\",\"state\":\"CT\",\"zip\":\"06070-1962\"}", "41.883278", "-72.813383", null, false ], "06070-1962", "860-651-3341", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 798, "178B803E-2DBA-48A4-AA3B-67650D2A99B4", 798, 1477676201, "878954", 1477676225, "878954", null, "Wapping Elementary School", "Public Schools", "1320411", [ "{\"address\":\"91 Ayers Rd.\",\"city\":\"South Windsor\",\"state\":\"CT\",\"zip\":\"06074-2036\"}", "41.845086", "-72.555709", null, false ], "06074-2036", "860-648-5010", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1992 0:00:00.000", "0" ]
+, [ 605, "19FDF230-B781-4B7E-8CDD-38A5C85A08D9", 605, 1477676201, "878954", 1477676225, "878954", null, "Newington High School", "Public Schools", "0946111", [ "{\"address\":\"605 Willard Ave.\",\"city\":\"Newington\",\"state\":\"CT\",\"zip\":\"06111-2648\"}", "41.702828", "-72.734854", null, false ], "06111-2648", "860-666-5611", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 971, "1A562AFF-A109-4F39-94B9-59E64C76AB75", 971, 1477676201, "878954", 1477676225, "878954", null, "Morley School", "Public Schools", "1550911", [ "{\"address\":\"77 Bretton Rd.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06119-1209\"}", "41.768896", "-72.731542", null, false ], "06119-1209", "860-233-8535", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 297, "1B1B1AE1-4B71-4457-975D-97AAAFD14C52", 297, 1477676201, "878954", 1477676230, "878954", null, "Hebron Avenue School", "Public Schools", "0540411", [ "{\"address\":\"1363 Hebron Avenue\",\"city\":\"Glastonbury\",\"state\":\"CT\",\"zip\":\"06033\"}", "41.717629", "-72.559917", null, false ], "06033", "860-652-7875", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 294, "1B392E4F-2D30-472C-B142-542A26617B27", 294, 1477676201, "878954", 1477676230, "878954", null, "Glastonbury School District", "Public School Districts", "0540011", [ "{\"address\":\"628 Hebron Avenue\",\"city\":\"Glastonbury\",\"state\":\"CT\",\"zip\":\"06033\"}", "41.714452", "-72.588865", null, false ], "06033", "860-652-7961", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 448, "1E8247B6-CDA6-4705-B450-D19EDF933919", 448, 1477676201, "878954", 1477676230, "878954", null, "Buckley School", "Public Schools", "0770311", [ "{\"address\":\"250 Vernon St.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06042-3473\"}", "41.792577", "-72.492843", null, false ], "06042-3473", "860-647-3302", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 771, "1F49F8A2-08FA-4274-86CD-1EFBECF24987", 771, 1477676201, "878954", 1477676230, "878954", null, "Tariffville School", "Public Schools", "1280311", [ "{\"address\":\"42 Winthrop St.\",\"city\":\"Tariffville\",\"state\":\"CT\",\"zip\":\"06081-9623\"}", "41.909758", "-72.766555", null, false ], "06081-9623", "860-658-5825", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 873, "21C89AA0-10CE-488E-A598-EDFA7E48C9B8", 873, 1477676201, "878954", 1477676230, "878954", null, "Birch Grove Primary School", "Public Schools", "1420111", [ "{\"address\":\"247 Rhodes RD\",\"city\":\"Tolland\",\"state\":\"CT\",\"zip\":\"06084-3568\"}", "41.859291", "-72.333985", null, false ], "06084-3568", "860-870-6750", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1999 0:00:00.000", "0" ]
+, [ 291, "24A83499-FF77-4DA3-8339-E1E726847139", 291, 1477676201, "878954", 1477676230, "878954", null, "Farmington High School", "Public Schools", "0526111", [ "{\"address\":\"10 Monteith Dr\",\"city\":\"Farmington\",\"state\":\"CT\",\"zip\":\"06032-1052\"}", "41.748583", "-72.868445", null, false ], "06032-1052", "860-673-2514", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 392, "24CC9FC2-EC87-4D71-A7F8-147292840685", 392, 1477676201, "878954", 1477676230, "878954", null, "Betances STEM Magnet School", "Public Schools", "0643811", [ "{\"address\":\"585 Wethersfield Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114\"}", "41.739804", "-72.671781", null, false ], "06114", "860-695-2840", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul2012 0:00:00.000", "1" ]
+, [ 244, "26ACBD47-E4F7-4E39-B345-7227E64695EA", 244, 1477676201, "878954", 1477676230, "878954", null, "Broad Brook Elementary School", "Public Schools", "0470111", [ "{\"address\":\"14 Rye St.\",\"city\":\"East Windsor\",\"state\":\"CT\",\"zip\":\"06016-9552\"}", "41.909771", "-72.546807", null, false ], "06016-9552", "860-623-2433", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 16, "29B30A8D-9BF6-4F85-B217-27ED06887AA7", 16, 1477676201, "878954", 1477676230, "878954", null, "Barkhamsted School District", "Public School Districts", "0050011", [ "{\"address\":\"65 Ripley Hill Road\",\"city\":\"Barkhamsted\",\"state\":\"CT\",\"zip\":\"06063\"}", "41.911255", "-72.991687", null, false ], "06063", "860-738-4016", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1996 0:00:00.000", "0" ]
+, [ 13, "2A09C081-5664-4FF4-B698-CD105413D571", 13, 1477676201, "878954", 1477676230, "878954", null, "Thompson Brook School", "Public Schools", "0040511", [ "{\"address\":\"150 Thompson Rd.\",\"city\":\"Avon\",\"state\":\"CT\",\"zip\":\"06001-2208\"}", "41.771337", "-72.854024", null, false ], "06001-2208", "860-404-4870", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul2002 0:00:00.000", "0" ]
+, [ 973, "2C74DEAE-BC9D-4B94-A7FC-F965342D3E04", 973, 1477676201, "878954", 1477676230, "878954", null, "Webster Hill School", "Public Schools", "1551211", [ "{\"address\":\"125 Webster Hill Blvd.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06117\"}", "41.743595", "-72.740681", null, false ], "06117", "860-521-0320", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 251, "2D430AD7-2F37-418A-9279-4D1AA4BE5AA6", 251, 1477676201, "878954", 1477676230, "878954", null, "Ellington Middle School", "Public Schools", "0485111", [ "{\"address\":\"46 Middle Butcher Rd.\",\"city\":\"Ellington\",\"state\":\"CT\",\"zip\":\"06029\"}", "41.878374", "-72.459958", null, false ], "06029", "860-896-2339", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 2, "2DAC5EBE-9F84-4BF1-8EEA-2D6BEC44D253", 2, 1477676201, "878954", 1477676230, "878954", null, "Andover Elementary School", "Public Schools", "0010111", [ "{\"address\":\"35 School Rd.\",\"city\":\"Andover\",\"state\":\"CT\",\"zip\":\"06232-1526\"}", "41.72791", "-72.365963", null, false ], "06232-1526", "860-742-7339", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 247, "2E0C93C5-E18E-462A-8C53-EEADBFFF606B", 247, 1477676201, "878954", 1477676230, "878954", null, "Ellington School District", "Public School Districts", "0480011", [ "{\"address\":\"47 Main Street\",\"city\":\"Ellington\",\"state\":\"CT\",\"zip\":\"06029\"}", "41.903091", "-72.465817", null, false ], "06029", "860-896-2300", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 289, "2E535FD1-AFEE-4B0E-8033-7FECE9FE4EDB", 289, 1477676201, "878954", 1477676230, "878954", null, "West Woods Upper Elementary School", "Public Schools", "0520511", [ "{\"address\":\"50 Judson Ln.\",\"city\":\"Farmington\",\"state\":\"CT\",\"zip\":\"06032\"}", "41.712285", "-72.874809", null, false ], "06032", "860-284-1230", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul2002 0:00:00.000", "0" ]
+, [ 246, "30F9A92F-6F30-433A-94CF-C2B28DDF3DEC", 246, 1477676201, "878954", 1477676230, "878954", null, "East Windsor High School", "Public Schools", "0476111", [ "{\"address\":\"76 South Main St.\",\"city\":\"East Windsor\",\"state\":\"CT\",\"zip\":\"06088-9741\"}", "41.901613", "-72.610604", null, false ], "06088-9741", "860-623-3361", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 374, "316844C7-AC55-4826-A0C9-9A3F0DD5879C", 374, 1477676201, "878954", 1477676230, "878954", null, "Naylor/CCSU Leadership Academy", "Public Schools", "0641411", [ "{\"address\":\"639 Franklin Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114-3030\"}", "41.730999", "-72.67424", null, false ], "06114-3030", "860-695-4620", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 770, "325D84CA-BE45-48FA-8A78-3C3535226481", 770, 1477676201, "878954", 1477676230, "878954", null, "Central School", "Public Schools", "1280111", [ "{\"address\":\"29 Massaco St.\",\"city\":\"Simsbury\",\"state\":\"CT\",\"zip\":\"06070-2118\"}", "41.881761", "-72.804097", null, false ], "06070-2118", "860-658-4732", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 36, "33161054-04C5-4989-9F15-683F883672B2", 36, 1477676201, "878954", 1477676230, "878954", null, "Wintonbury Early Childhood Magnet School", "Public Schools", "0110811", [ "{\"address\":\"44 Brown St.\",\"city\":\"Bloomfield\",\"state\":\"CT\",\"zip\":\"06002\"}", "41.838481", "-72.746492", null, false ], "06002", "860-769-5510", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2009 0:00:00.000", "1" ]
+, [ 795, "355DAEE9-0AA9-43B4-9D88-5C52E97F56A6", 795, 1477676201, "878954", 1477676230, "878954", null, "South Windsor School District", "Public School Districts", "1320011", [ "{\"address\":\"1737 Main Street\",\"city\":\"South Windsor\",\"state\":\"CT\",\"zip\":\"06074\"}", "41.854903", "-72.605831", null, false ], "06074", "860-291-1205", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 969, "35F0E294-C92A-466A-8871-A87455938ABA", 969, 1477676201, "878954", 1477676230, "878954", null, "Charter Oak International Academy", "Public Schools", "1550511", [ "{\"address\":\"425 Oakwood Ave.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06110\"}", "41.743366", "-72.720653", null, false ], "06110", "860-233-8506", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 455, "36FA1EC9-1F23-4919-A78E-5F175622EE18", 455, 1477676201, "878954", 1477676230, "878954", null, "Martin School", "Public Schools", "0771611", [ "{\"address\":\"140 Dartmouth Rd.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040-6616\"}", "41.75386", "-72.511342", null, false ], "06040-6616", "860-647-3367", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 406, "382CCA25-EE5F-42B2-AA30-DED62FEF53DB", 406, 1477676201, "878954", 1477676235, "878954", null, "High School, Inc.", "Public Schools", "0647611", [ "{\"address\":\"875 Asylum Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105-1960\"}", "41.770264", "-72.693896", null, false ], "06105-1960", "860-695-7101", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2009 0:00:00.000", "0" ]
+, [ 878, "395E4078-4C60-464A-983D-E2FB71BEC8FB", 878, 1477676201, "878954", 1477676235, "878954", null, "East School", "Public Schools", "1430111", [ "{\"address\":\"215 Hogan Dr.\",\"city\":\"Torrington\",\"state\":\"CT\",\"zip\":\"06790-4109\"}", "41.808673", "-73.091467", null, false ], "06790-4109", "860-489-2303", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 370, "3A7EE962-FD4B-49ED-B226-C1BFB2F12D75", 370, 1477676201, "878954", 1477676235, "878954", null, "Kennelly School", "Public Schools", "0641011", [ "{\"address\":\"180 White Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114-2242\"}", "41.73482", "-72.695022", null, false ], "06114-2242", "860-695-3860", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 285, "3B7AFD98-55E4-4E70-A6ED-3BEC47619C02", 285, 1477676201, "878954", 1477676235, "878954", null, "Union School", "Public Schools", "0520111", [ "{\"address\":\"173 School St.\",\"city\":\"Unionville\",\"state\":\"CT\",\"zip\":\"06085-1096\"}", "41.758586", "-72.889596", null, false ], "06085-1096", "860-673-2575", "0", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 386, "3BCC46DE-01D6-4DEF-9E35-7152D4AE6547", 386, 1477676201, "878954", 1477676235, "878954", null, "Sanchez School", "Public Schools", "0643011", [ "{\"address\":\"176 Babcock Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106-1357\"}", "41.758918", "-72.689238", null, false ], "06106-1357", "860-695-4940", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1992 0:00:00.000", "0" ]
+, [ 797, "40B0B2C9-03F3-47B7-9CD7-AD633A452766", 797, 1477676201, "878954", 1477676235, "878954", null, "Pleasant Valley School", "Public Schools", "1320211", [ "{\"address\":\"591 Ellington Rd.\",\"city\":\"South Windsor\",\"state\":\"CT\",\"zip\":\"06074-4118\"}", "41.811222", "-72.597108", null, false ], "06074-4118", "860-610-0291", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 39, "43D1C938-FF24-43AF-9D93-C3458CC1A8A3", 39, 1477676201, "878954", 1477676235, "878954", null, "Global Experience Magnet School", "Public Schools", "0116311", [ "{\"address\":\"44 Griffin Rd., South\",\"city\":\"Bloomfield\",\"state\":\"CT\",\"zip\":\"06002\"}", "41.869999", "-72.735206", null, false ], "06002", "860-769-6600", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "01Jul2012 0:00:00.000", "1" ]
+, [ 220, "447C0C39-7258-4481-BB2C-99C3A7007530", 220, 1477676201, "878954", 1477676235, "878954", null, "Sunset Ridge School Elementary Academy for Arts and World Languages", "Public Schools", "0432411", [ "{\"address\":\"450 Forbes St.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118\"}", "41.76422", "-72.600015", null, false ], "06118", "860-622-5800", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1999 0:00:00.000", "0" ]
+, [ 367, "44CD860F-C8D4-4954-B999-488F2CFF2AA2", 367, 1477676201, "878954", 1477676235, "878954", null, "Asian Studies Academy at Bellizzi School", "Public Schools", "0640711", [ "{\"address\":\"215 South Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114-1918\"}", "41.734533", "-72.6809", null, false ], "06114-1918", "860-695-2400", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 603, "44CDDEAE-0D64-4D59-8492-71C8929F6B82", 603, 1477676201, "878954", 1477676235, "878954", null, "Martin Kellogg Middle School", "Public Schools", "0945111", [ "{\"address\":\"155 Harding Ave.\",\"city\":\"Newington\",\"state\":\"CT\",\"zip\":\"06111-1918\"}", "41.709739", "-72.732031", null, false ], "06111-1918", "860-666-5418", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 38, "44D70087-3EA3-40D9-8645-D82A398756AE", 38, 1477676201, "878954", 1477676235, "878954", null, "Bloomfield High School", "Public Schools", "0116111", [ "{\"address\":\"5 Huckleberry Ln.\",\"city\":\"Bloomfield\",\"state\":\"CT\",\"zip\":\"06002-3190\"}", "41.826302", "-72.725834", null, false ], "06002-3190", "860-286-2630", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 405, "45D543AA-5017-4B52-B9BA-241FFF233E42", 405, 1477676201, "878954", 1477676235, "878954", null, "HPHS Nursing and Health Sciences Academy", "Public Schools", "0647511", [ "{\"address\":\"55 Forest Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105\"}", "41.765472", "-72.700221", null, false ], "06105", "860-695-1325", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2009 0:00:00.000", "0" ]
+, [ 211, "45F8ED25-CCC3-46C0-905E-9D855AC51EAD", 211, 1477676201, "878954", 1477676235, "878954", null, "East Hartford School District", "Public School Districts", "0430011", [ "{\"address\":\"1110 Main Street\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06108\"}", "41.772886", "-72.641536", null, false ], "06108", "860-622-5101", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 379, "487C0029-C41F-4DAE-A9E8-B8B70B2CF943", 379, 1477676201, "878954", 1477676235, "878954", null, "Webster Micro Society Magnet School", "Public Schools", "0642011", [ "{\"address\":\"5 Cone Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105\"}", "41.768894", "-72.712253", null, false ], "06105", "860-695-5380", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "1" ]
+, [ 884, "49367655-EE86-4F79-B0E0-5A8808D1829B", 884, 1477676201, "878954", 1477676235, "878954", null, "Torrington High School", "Public Schools", "1436111", [ "{\"address\":\"50 Major Besse Dr.\",\"city\":\"Torrington\",\"state\":\"CT\",\"zip\":\"06790-3793\"}", "41.81487", "-73.111379", null, false ], "06790-3793", "860-489-2294", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 904, "4ACFE34D-8B90-483B-B09E-470E4D24050E", 904, 1477676201, "878954", 1477676235, "878954", null, "Rockville High School", "Public Schools", "1466111", [ "{\"address\":\"70 Loveland Hill\",\"city\":\"Vernon\",\"state\":\"CT\",\"zip\":\"06066-2304\"}", "41.85719", "-72.482536", null, false ], "06066-2304", "860-870-6050", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 216, "4CA1FAA5-5C86-4975-810A-23ECA2C1E463", 216, 1477676201, "878954", 1477676235, "878954", null, "Silver Lane School", "Public Schools", "0431211", [ "{\"address\":\"15 Mercer Ave.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118-1517\"}", "41.7608", "-72.634157", null, false ], "06118-1517", "860-622-5500", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 407, "4CF441F0-CEEE-4FF6-8AF1-C99EDD7B05AA", 407, 1477676201, "878954", 1477676235, "878954", null, "Journalism and Media Academy Magnet School", "Public Schools", "0647711", [ "{\"address\":\"150 Tower Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06120\"}", "41.797635", "-72.670349", null, false ], "06120", "860-695-1818", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2009 0:00:00.000", "1" ]
+, [ 41, "4DA4D81A-8010-47AC-A4E0-5FF3EDC77042", 41, 1477676201, "878954", 1477676235, "878954", null, "Bolton School District", "Public School Districts", "0120011", [ "{\"address\":\"72 Brandy Street\",\"city\":\"Bolton\",\"state\":\"CT\",\"zip\":\"06043\"}", "41.759994", "-72.422677", null, false ], "06043", "860-643-1569", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 876, "4ECBB86E-0905-4911-9AFA-4CBB6E7EA280", 876, 1477676201, "878954", 1477676235, "878954", null, "Tolland High School", "Public Schools", "1426111", [ "{\"address\":\"1 Eagle Hill\",\"city\":\"Tolland\",\"state\":\"CT\",\"zip\":\"06084-3323\"}", "41.869531", "-72.347193", null, false ], "06084-3323", "860-870-6818", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 399, "4EE73EC7-DE84-410E-82EF-C4C9C6D1B960", 399, 1477676201, "878954", 1477676235, "878954", null, "Pathways Academy of Technology and Design", "Public Schools", "0646611", [ "{\"address\":\"2 Pent Road\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118\"}", "41.740864", "-72.634535", null, false ], "06118", "860-695-9450", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2003 0:00:00.000", "1" ]
+, [ 116, "4F282EB6-970C-4E33-AB90-E1FF5AB036C7", 116, 1477676201, "878954", 1477676240, "878954", null, "Canton School District", "Public School Districts", "0230011", [ "{\"address\":\"4 Market Street\",\"city\":\"Collinsville\",\"state\":\"CT\",\"zip\":\"06022\"}", "41.810933", "-72.922307", null, false ], "06022", "860-693-7704", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 393, "4F385816-AA7F-48DB-BCF9-50241EABF8BA", 393, 1477676201, "878954", 1477676240, "878954", null, "Capital Community College Magnet Academy", "Public Schools", "0643911", [ "{\"address\":\"950 Main Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06103\"}", "41.76836", "-72.673045", null, false ], "06103", "860-965-8000", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "26Aug2014 0:00:00.000", "1" ]
+, [ 902, "52AA1DF4-C881-4B30-AD75-28CB27BA34CF", 902, 1477676201, "878954", 1477676240, "878954", null, "Center Road School", "Public Schools", "1461411", [ "{\"address\":\"20 Center Rd.\",\"city\":\"Vernon\",\"state\":\"CT\",\"zip\":\"06066-5102\"}", "41.839077", "-72.467006", null, false ], "06066-5102", "860-870-6300", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 373, "552B4059-7987-4254-A2A6-4B6E33EC5812", 373, 1477676201, "878954", 1477676240, "878954", null, "Hartford PreKindergarten Magnet School", "Public Schools", "0641311", [ "{\"address\":\"121 Cornwall Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112\"}", "41.791308", "-72.701776", null, false ], "06112", "860-695-5820", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2013 0:00:00.000", "1" ]
+, [ 460, "56938E86-D56B-4DE4-BCBA-9ED545236C64", 460, 1477676201, "878954", 1477676240, "878954", null, "Dorothy C. Goodwin School", "Public Schools", "0780211", [ "{\"address\":\"321 Hunting Lodge Rd.\",\"city\":\"Storrs\",\"state\":\"CT\",\"zip\":\"06268-1508\"}", "41.819167", "-72.283418", null, false ], "06268-1508", "860-429-4630", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 404, "58362184-6708-4D95-9467-ADAD91DE4313", 404, 1477676201, "878954", 1477676240, "878954", null, "HPHS Law and Government Academy", "Public Schools", "0647411", [ "{\"address\":\"55 Forest Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105\"}", "41.765472", "-72.700221", null, false ], "06105", "860-695-1300", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2009 0:00:00.000", "0" ]
+, [ 554, "587A8DFF-3B1D-4703-803D-5FF97EFDE8F8", 554, 1477676201, "878954", 1477676240, "878954", null, "Bakerville Consolidated School", "Public Schools", "0920111", [ "{\"address\":\"51 Cedar Ln.\",\"city\":\"New Hartford\",\"state\":\"CT\",\"zip\":\"06057-2909\"}", "41.833899", "-73.034736", null, false ], "06057-2909", "860-482-0288", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 555, "59B501D5-81B9-4D2F-A229-52E4BAD4F6B3", 555, 1477676201, "878954", 1477676240, "878954", null, "New Hartford Elementary School", "Public Schools", "0920211", [ "{\"address\":\"40 Wickett St.\",\"city\":\"New Hartford\",\"state\":\"CT\",\"zip\":\"06057-3326\"}", "41.87671", "-72.96725", null, false ], "06057-3326", "860-379-8546", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 898, "5B9251C0-F045-4F93-9F89-5094FAB95F8F", 898, 1477676201, "878954", 1477676240, "878954", null, "Lake Street School", "Public Schools", "1460111", [ "{\"address\":\"201 Lake St.\",\"city\":\"Vernon\",\"state\":\"CT\",\"zip\":\"06066-6245\"}", "41.811394", "-72.469261", null, false ], "06066-6245", "860-870-6085", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 43, "5C4E81F7-FCDA-4483-8494-B0AC7C0EE92B", 43, 1477676201, "878954", 1477676240, "878954", null, "Bolton High School", "Public Schools", "0126111", [ "{\"address\":\"72 Brandy St.\",\"city\":\"Bolton\",\"state\":\"CT\",\"zip\":\"06043-7697\"}", "41.759994", "-72.422677", null, false ], "06043-7697", "860-643-2768", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 286, "5ECC2FCA-0102-492F-8029-DA3089B98989", 286, 1477676201, "878954", 1477676240, "878954", null, "Noah Wallace School", "Public Schools", "0520211", [ "{\"address\":\"2 School St.\",\"city\":\"Farmington\",\"state\":\"CT\",\"zip\":\"06032-2323\"}", "41.721413", "-72.829345", null, false ], "06032-2323", "860-677-1659", "0", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 449, "5EF827A4-8A3C-40D1-B092-7A65F41FC954", 449, 1477676201, "878954", 1477676240, "878954", null, "Highland Park School", "Public Schools", "0770411", [ "{\"address\":\"397 Porter St.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040-5575\"}", "41.77239", "-72.495014", null, false ], "06040-5575", "860-647-3430", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "30Aug2012 0:00:00.000", "0" ]
+, [ 215, "5F988B32-581D-4C2E-835F-5C342AA4CFFB", 215, 1477676201, "878954", 1477676240, "878954", null, "Dr. Thomas S. O'Connell School", "Public Schools", "0431011", [ "{\"address\":\"301 May Rd.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118-3434\"}", "41.73434", "-72.596633", null, false ], "06118-3434", "860-622-5460", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 117, "614FCE9B-57B4-4B3F-BB89-6DC571B93022", 117, 1477676201, "878954", 1477676240, "878954", null, "Cherry Brook Primary School", "Public Schools", "0230211", [ "{\"address\":\"4 Barbourtown Rd.\",\"city\":\"Canton\",\"state\":\"CT\",\"zip\":\"06019-1702\"}", "41.859139", "-72.913519", null, false ], "06019-1702", "860-693-7721", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 531, "616BDA3B-A136-4CAF-8446-9B0A58DB32E1", 531, 1477676201, "878954", 1477676240, "878954", null, "Jefferson School", "Public Schools", "0890711", [ "{\"address\":\"140 Horse Plain Rd.\",\"city\":\"New Britain\",\"state\":\"CT\",\"zip\":\"06053-1678\"}", "41.696082", "-72.799197", null, false ], "06053-1678", "860-223-8007", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 982, "634B47C0-8E3D-478D-98F1-B9C55D101CCF", 982, 1477676201, "878954", 1477676240, "878954", null, "Hall High School", "Public Schools", "1556211", [ "{\"address\":\"975 North Main St.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06117-2057\"}", "41.7954", "-72.747327", null, false ], "06117-2057", "860-232-4561", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 800, "6566B1C0-4669-4E7D-A650-7B37F049EE84", 800, 1477676201, "878954", 1477676240, "878954", null, "Eli Terry School", "Public Schools", "1320711", [ "{\"address\":\"569 Griffin Rd.\",\"city\":\"South Windsor\",\"state\":\"CT\",\"zip\":\"06074-1382\"}", "41.865967", "-72.551839", null, false ], "06074-1382", "860-648-5020", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 100, "67DCD1A8-EB5F-471F-9A45-8154A4E6D3F7", 100, 1477676201, "878954", 1477676240, "878954", null, "Northeast Middle School", "Public Schools", "0175211", [ "{\"address\":\"530 Stevens St.\",\"city\":\"Bristol\",\"state\":\"CT\",\"zip\":\"06010-2587\"}", "41.715037", "-72.90892", null, false ], "06010-2587", "860-584-7839", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1997 0:00:00.000", "0" ]
+, [ 1, "6841B1A9-9844-40E3-B90E-CA2C2D805755", 1, 1477676201, "878954", 1477676240, "878954", null, "Andover School District", "Public School Districts", "0010011", [ "{\"address\":\"35 School Road\",\"city\":\"Andover\",\"state\":\"CT\",\"zip\":\"06232\"}", "41.72791", "-72.365963", null, false ], "06232", "860-742-7339", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1996 0:00:00.000", "0" ]
+, [ 402, "685FF61D-68D5-4259-AFA5-170E4C9D6181", 402, 1477676201, "878954", 1477676240, "878954", null, "Bulkeley High School", "Public Schools", "0647111", [ "{\"address\":\"300 Wethersfield Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114-1409\"}", "41.747601", "-72.673459", null, false ], "06114-1409", "860-695-1011", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2009 0:00:00.000", "0" ]
+, [ 773, "6C8FE877-8310-458C-9F05-4806A1DBC61C", 773, 1477676201, "878954", 1477676245, "878954", null, "Latimer Lane School", "Public Schools", "1280611", [ "{\"address\":\"33 Mountain View Rd.\",\"city\":\"Weatogue\",\"state\":\"CT\",\"zip\":\"06089-9721\"}", "41.840096", "-72.821762", null, false ], "06089-9721", "860-658-4774", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 772, "6CFBBCA1-0D0A-4C71-A369-E3137FFC85C4", 772, 1477676201, "878954", 1477676245, "878954", null, "Tootin' Hills School", "Public Schools", "1280411", [ "{\"address\":\"25 Nimrod Rd.\",\"city\":\"West Simsbury\",\"state\":\"CT\",\"zip\":\"06092-2520\"}", "41.860788", "-72.860821", null, false ], "06092-2520", "860-658-7629", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 899, "6D5015EA-EEF7-4D2E-84E7-E9B33EF3CE36", 899, 1477676201, "878954", 1477676245, "878954", null, "Maple Street School", "Public Schools", "1460211", [ "{\"address\":\"20 Maple St.\",\"city\":\"Rockville\",\"state\":\"CT\",\"zip\":\"06066-3026\"}", "41.867795", "-72.462732", null, false ], "06066-3026", "860-870-6175", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 390, "6E3CEC6F-2EC0-4F41-A925-507281402CB7", 390, 1477676201, "878954", 1477676245, "878954", null, "Global Communications Academy", "Public Schools", "0643611", [ "{\"address\":\"85 Edwards Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112-1826\"}", "41.774537", "-72.681497", null, false ], "06112-1826", "860-695-6020", "0", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "25Aug2008 0:00:00.000", "0" ]
+, [ 366, "71B0D8FC-8697-4FF2-8BB2-7DEFB7F49BDD", 366, 1477676201, "878954", 1477676245, "878954", null, "Burns Latino Studies Academy", "Public Schools", "0640611", [ "{\"address\":\"195 Putnam Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106-1328\"}", "41.761181", "-72.690452", null, false ], "06106-1328", "860-695-2980", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 883, "71B908F1-43AB-466C-A98E-15AE01F7C0F9", 883, 1477676201, "878954", 1477676245, "878954", null, "Torrington Middle School", "Public Schools", "1435111", [ "{\"address\":\"200 Middle School Rd.\",\"city\":\"Torrington\",\"state\":\"CT\",\"zip\":\"06790-3168\"}", "41.832876", "-73.070287", null, false ], "06790-3168", "860-496-4050", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1997 0:00:00.000", "0" ]
+, [ 385, "72056BDC-15F1-4287-9D21-5EEC12420ABA", 385, 1477676201, "878954", 1477676245, "878954", null, "Betances Early Reading Lab Magnet School", "Public Schools", "0642811", [ "{\"address\":\"42 Charter Oak Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106-1909\"}", "41.759238", "-72.672397", null, false ], "06106-1909", "860-695-2840", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "1" ]
+, [ 458, "72E72275-22CC-4678-A09B-E6492222BAA6", 458, 1477676201, "878954", 1477676245, "878954", null, "Manchester High School", "Public Schools", "0776111", [ "{\"address\":\"134 MiddleTpke E\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040-4260\"}", "41.783911", "-72.516872", null, false ], "06040-4260", "860-647-3530", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 450, "7308B954-9191-42B8-9884-0C5E5DC9D87C", 450, 1477676201, "878954", 1477676245, "878954", null, "Keeney School", "Public Schools", "0770611", [ "{\"address\":\"179 Keeney St.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040-7017\"}", "41.756412", "-72.541535", null, false ], "06040-7017", "860-647-3354", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 388, "73CD3600-7FEC-4404-9568-C6EB763AB08D", 388, 1477676201, "878954", 1477676245, "878954", null, "Breakthrough Magnet School", "Public Schools", "0643311", [ "{\"address\":\"290 Brookfield Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.747153", "-72.706594", null, false ], "06106", "860-695-5700", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul2002 0:00:00.000", "1" ]
+, [ 217, "7490885E-8BEB-4F51-83F6-97BEFBB82B55", 217, 1477676201, "878954", 1477676245, "878954", null, "Robert J. O'Brien School", "Public Schools", "0431811", [ "{\"address\":\"52 Farm Dr.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06108-1211\"}", "41.793033", "-72.610556", null, false ], "06108-1211", "860-622-5760", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 972, "75D60390-631C-41AE-B25B-511CCE99B986", 972, 1477676201, "878954", 1477676245, "878954", null, "Norfeldt School", "Public Schools", "1551011", [ "{\"address\":\"35 Barksdale Rd.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06117-1605\"}", "41.795089", "-72.761635", null, false ], "06117-1605", "860-233-4421", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 799, "76CA9BB7-569F-4257-87A9-708249D88DDB", 799, 1477676201, "878954", 1477676245, "878954", null, "Orchard Hill School", "Public Schools", "1320611", [ "{\"address\":\"350 Foster St.\",\"city\":\"South Windsor\",\"state\":\"CT\",\"zip\":\"06074-2939\"}", "41.828154", "-72.529485", null, false ], "06074-2939", "860-648-5015", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 12, "799F282A-48D8-41FF-8749-F8B61090A814", 12, 1477676201, "878954", 1477676245, "878954", null, "Pine Grove School", "Public Schools", "0040411", [ "{\"address\":\"151 Scoville Rd.\",\"city\":\"Avon\",\"state\":\"CT\",\"zip\":\"06001-3023\"}", "41.77655", "-72.856995", null, false ], "06001-3023", "860-404-4790", "0", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1990 0:00:00.000", "0" ]
+, [ 461, "7C6430A4-A308-4E75-9CD5-D5F6C344D0E0", 461, 1477676201, "878954", 1477676245, "878954", null, "Annie E. Vinton School", "Public Schools", "0780411", [ "{\"address\":\"306 Stafford Rd.\",\"city\":\"Mansfield Center\",\"state\":\"CT\",\"zip\":\"06250-1424\"}", "41.747907", "-72.260432", null, false ], "06250-1424", "860-423-3086", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 219, "7CC65CD8-E769-46CD-AB5B-E2286402CCB0", 219, 1477676201, "878954", 1477676245, "878954", null, "Dr. John A. Langford School", "Public Schools", "0432211", [ "{\"address\":\"61 Alps Dr.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06108-1402\"}", "41.791267", "-72.600756", null, false ], "06108-1402", "860-622-5700", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 99, "7E519A75-5AFD-4B54-8CBA-0E513ECBCB56", 99, 1477676201, "878954", 1477676245, "878954", null, "Chippens Hill Middle School", "Public Schools", "0175111", [ "{\"address\":\"551 Peacedale St.\",\"city\":\"Bristol\",\"state\":\"CT\",\"zip\":\"06010-8939\"}", "41.700509", "-72.966105", null, false ], "06010-8939", "860-584-3881", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1992 0:00:00.000", "0" ]
+, [ 288, "820051C1-AB0B-4EA5-95A6-8CEEC4840B17", 288, 1477676201, "878954", 1477676251, "878954", null, "East Farms School", "Public Schools", "0520411", [ "{\"address\":\"25 Wolf Pit Rd.\",\"city\":\"Farmington\",\"state\":\"CT\",\"zip\":\"06032-2434\"}", "41.720348", "-72.799893", null, false ], "06032-2434", "860-674-9519", "0", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1987 0:00:00.000", "0" ]
+, [ 801, "8371511F-1AD0-4FA2-A0A6-41856C687F0B", 801, 1477676201, "878954", 1477676251, "878954", null, "Timothy Edwards School", "Public Schools", "1325111", [ "{\"address\":\"100 Arnold Way\",\"city\":\"South Windsor\",\"state\":\"CT\",\"zip\":\"06074-3028\"}", "41.82931", "-72.523914", null, false ], "06074-3028", "860-648-5030", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 383, "83855621-F505-4ED0-91D8-5119FDB2A0F7", 383, 1477676201, "878954", 1477676251, "878954", null, "STEM Magnet at Fisher School", "Public Schools", "0642511", [ "{\"address\":\"280 Plainfield Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112\"}", "41.791455", "-72.708169", null, false ], "06112", "860-695-3500", "0", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "1" ]
+, [ 40, "85F9594B-5D92-463C-9ABB-8F604AEAD5E4", 40, 1477676201, "878954", 1477676251, "878954", null, "Learning Academy at Bloomfield", "Public Schools", "0116411", [ "{\"address\":\"20-28 Sargeant Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105\"}", "41.774592", "-72.688018", null, false ], "06105", "860-761-7300", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "04Sep2012 0:00:00.000", "0" ]
+, [ 252, "86CA5EDC-6ECE-4FC7-A880-DCDF9C340EFC", 252, 1477676201, "878954", 1477676251, "878954", null, "Ellington High School", "Public Schools", "0486111", [ "{\"address\":\"37 Maple St.\",\"city\":\"Ellington\",\"state\":\"CT\",\"zip\":\"06029-3333\"}", "41.90794", "-72.460979", null, false ], "06029-3333", "860-896-2352", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 250, "882A09A7-00CA-435C-B766-580CC43022D0", 250, 1477676201, "878954", 1477676251, "878954", null, "Windermere School", "Public Schools", "0480611", [ "{\"address\":\"2 Abbott Rd.\",\"city\":\"Ellington\",\"state\":\"CT\",\"zip\":\"06029-3800\"}", "41.870644", "-72.499003", null, false ], "06029-3800", "860-896-2329", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 384, "8C8DEAAA-B600-420A-9F19-35B350FFBAA1", 384, 1477676201, "878954", 1477676251, "878954", null, "Simpson-Waverly School", "Public Schools", "0642611", [ "{\"address\":\"55 Waverly Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112\"}", "41.795135", "-72.681593", null, false ], "06112", "860-695-5160", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 97, "8D706754-8B13-4EFB-8484-0694DAFB63D7", 97, 1477676201, "878954", 1477676251, "878954", null, "Ivy Drive School", "Public Schools", "0171911", [ "{\"address\":\"160 Ivy Dr.\",\"city\":\"Bristol\",\"state\":\"CT\",\"zip\":\"06010-3303\"}", "41.705922", "-72.901043", null, false ], "06010-3303", "860-584-7844", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1998 0:00:00.000", "0" ]
+, [ 457, "8DDDAA3A-6B7A-42FD-9570-A666ABD0D52C", 457, 1477676201, "878954", 1477676252, "878954", null, "Illing Middle School", "Public Schools", "0775311", [ "{\"address\":\"227 Middle Tpke E\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040-4261\"}", "41.783729", "-72.513302", null, false ], "06040-4261", "860-647-3400", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 397, "8F9FC3CE-2DD2-44B3-B805-3416094DA27C", 397, 1477676201, "878954", 1477676252, "878954", null, "Classical Magnet School", "Public Schools", "0646411", [ "{\"address\":\"85 Woodland Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105\"}", "41.772855", "-72.700469", null, false ], "06105", "860-695-9100", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "01Jul1995 0:00:00.000", "1" ]
+, [ 875, "903E41B0-65B3-4962-8120-10154D71B456", 875, 1477676201, "878954", 1477676252, "878954", null, "Tolland Middle School", "Public Schools", "1425111", [ "{\"address\":\"1 Falcon Way\",\"city\":\"Tolland\",\"state\":\"CT\",\"zip\":\"06084-3048\"}", "41.870712", "-72.350082", null, false ], "06084-3048", "860-870-6860", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 118, "90ADB2FD-38FE-46BE-8482-D8306DBA175C", 118, 1477676201, "878954", 1477676252, "878954", null, "Canton Intermediate School", "Public Schools", "0230311", [ "{\"address\":\"39 Dyer Ave.\",\"city\":\"Canton\",\"state\":\"CT\",\"zip\":\"06019\"}", "41.821852", "-72.919706", null, false ], "06019", "860-693-7717", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 248, "9202FF73-7C02-4CFE-95C0-5C8A2B236C5B", 248, 1477676201, "878954", 1477676252, "878954", null, "Center School", "Public Schools", "0480111", [ "{\"address\":\"49 Main St.\",\"city\":\"Ellington\",\"state\":\"CT\",\"zip\":\"06029\"}", "41.903356", "-72.466528", null, false ], "06029", "860-896-2315", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 530, "9217EECB-A320-465C-81BE-BC76CF34EC50", 530, 1477676201, "878954", 1477676252, "878954", null, "Holmes School", "Public Schools", "0890611", [ "{\"address\":\"2150 Stanley St.\",\"city\":\"New Britian\",\"state\":\"CT\",\"zip\":\"06053-1425\"}", "41.704292", "-72.77571", null, false ], "06053-1425", "860-223-8294", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 897, "926D6B86-6C7A-4FA7-A22B-4C1FD3C8EB8E", 897, 1477676201, "878954", 1477676252, "878954", null, "Vernon School District", "Public School Districts", "1460011", [ "{\"address\":\"30 Park Street, Box 600\",\"city\":\"Vernon\",\"state\":\"CT\",\"zip\":\"06066\"}", "41.868562", "-72.448146", null, false ], "06066", "860-870-6000", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 151, "931F5A1C-784A-4B8C-A99A-07E7B8BC5EB6", 151, 1477676201, "878954", 1477676252, "878954", null, "George Hersey Robertson School", "Public Schools", "0320411", [ "{\"address\":\"227 Cross Street\",\"city\":\"Coventry\",\"state\":\"CT\",\"zip\":\"06238-3304\"}", "41.760938", "-72.311173", null, false ], "06238-3304", "860-742-7341", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 872, "95C063E5-F6B3-4903-BAAD-C939D3B3AD23", 872, 1477676201, "878954", 1477676252, "878954", null, "Tolland School District", "Public School Districts", "1420011", [ "{\"address\":\"51 Tolland Grn\",\"city\":\"Tolland\",\"state\":\"CT\",\"zip\":\"06084-3030\"}", "41.871833", "-72.369073", null, false ], "06084-3030", "860-870-6850", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 381, "9650E008-1F37-46D5-BEE7-7868447E719B", 381, 1477676201, "878954", 1477676252, "878954", null, "Wish Museum School", "Public Schools", "0642211", [ "{\"address\":\"350 Barbour Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06120-1002\"}", "41.795041", "-72.676727", null, false ], "06120-1002", "860-695-5600", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 224, "9698F946-5F00-407E-81BC-977243A09307", 224, 1477676201, "878954", 1477676252, "878954", null, "Stevens Alternate High School", "Public Schools", "0436411", [ "{\"address\":\"40 Butternut Dr.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118\"}", "41.755411", "-72.596044", null, false ], "06118", "860-622-5999", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2005 0:00:00.000", "0" ]
+, [ 145, "97BF3C75-B6DD-47E8-BE36-BFCB6C56BD28", 145, 1477676201, "878954", 1477676252, "878954", null, "Columbia School District", "Public School Districts", "0300011", [ "{\"address\":\"3 Schoolhouse Road\",\"city\":\"Columbia\",\"state\":\"CT\",\"zip\":\"06237\"}", "41.705186", "-72.300682", null, false ], "06237", "860-228-9493", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1996 0:00:00.000", "0" ]
+, [ 539, "9805C24A-9711-4CF5-81D6-4D66CF1A7010", 539, 1477676201, "878954", 1477676252, "878954", null, "Pulaski Middle School", "Public Schools", "0895311", [ "{\"address\":\"757 Farmington Ave.\",\"city\":\"New Britain\",\"state\":\"CT\",\"zip\":\"06053-1364\"}", "41.698317", "-72.791439", null, false ], "06053-1364", "860-225-7665", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1997 0:00:00.000", "0" ]
+, [ 221, "98E6A27B-7002-4579-8C96-CD7A81D6A95A", 221, 1477676201, "878954", 1477676252, "878954", null, "East Hartford Middle School", "Public Schools", "0435111", [ "{\"address\":\"777 Burnside Ave.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06108-2705\"}", "41.780335", "-72.604106", null, false ], "06108-2705", "860-622-5600", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1997 0:00:00.000", "0" ]
+, [ 401, "9CCAB427-0E24-4843-802C-EE4FC3F47366", 401, 1477676201, "878954", 1477676256, "878954", null, "Capital Preparatory Magnet School", "Public Schools", "0646911", [ "{\"address\":\"1304 Main Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06103\"}", "41.772344", "-72.67604", null, false ], "06103", "860-695-9800", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul2005 0:00:00.000", "1" ]
+, [ 968, "9CD11E07-8695-4D29-9B0D-2958650D182B", 968, 1477676201, "878954", 1477676256, "878954", null, "Bugbee School", "Public Schools", "1550411", [ "{\"address\":\"1943 Asylum Ave.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06117-3058\"}", "41.779062", "-72.753545", null, false ], "06117-3058", "860-929-5500", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 880, "9E516DE5-F6A3-41E1-A707-901C82C2F458", 880, 1477676201, "878954", 1477676256, "878954", null, "Southwest School", "Public Schools", "1430811", [ "{\"address\":\"340 Litchfield St.\",\"city\":\"Torrington\",\"state\":\"CT\",\"zip\":\"06790\"}", "41.795002", "-73.126562", null, false ], "06790", "860-489-2311", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 769, "A0C457DD-0FC2-4C59-9488-05F7F39563DC", 769, 1477676201, "878954", 1477676256, "878954", null, "Simsbury School District", "Public School Districts", "1280011", [ "{\"address\":\"933 Hopmeadow Street\",\"city\":\"Simsbury\",\"state\":\"CT\",\"zip\":\"06070\"}", "41.880113", "-72.800071", null, false ], "06070", "860-651-3361", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 901, "A35AD69B-CA4F-4F8C-B261-41FDC2591926", 901, 1477676201, "878954", 1477676256, "878954", null, "Skinner Road School", "Public Schools", "1461011", [ "{\"address\":\"90 Skinner Rd.\",\"city\":\"Vernon\",\"state\":\"CT\",\"zip\":\"06066-2723\"}", "41.855641", "-72.49279", null, false ], "06066-2723", "860-870-6180", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 299, "A42D8EA2-E31D-4DEE-AE60-41FEE43A69F5", 299, 1477676201, "878954", 1477676256, "878954", null, "Naubuc School", "Public Schools", "0540711", [ "{\"address\":\"82 Griswold St.\",\"city\":\"Glastonbury\",\"state\":\"CT\",\"zip\":\"06033-1006\"}", "41.722695", "-72.610851", null, false ], "06033-1006", "860-652-7918", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 976, "A4C7CD00-6411-4D97-A809-BC5110CFF7DA", 976, 1477676201, "878954", 1477676256, "878954", null, "Aiken School", "Public Schools", "1551611", [ "{\"address\":\"212 King Philip Dr.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06117-1408\"}", "41.800352", "-72.746562", null, false ], "06117-1408", "860-233-6994", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1990 0:00:00.000", "0" ]
+, [ 212, "A636E447-009A-4793-A5AE-8325F0BFD029", 212, 1477676201, "878954", 1477676256, "878954", null, "Joseph O. Goodwin School", "Public Schools", "0430411", [ "{\"address\":\"1235 Forbes St.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118-2803\"}", "41.739258", "-72.605054", null, false ], "06118-2803", "860-622-5420", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 90, "A6A248A3-B105-41F1-BD41-790BB7448901", 90, 1477676201, "878954", 1477676256, "878954", null, "Edgewood School", "Public Schools", "0170311", [ "{\"address\":\"345 Mix St.\",\"city\":\"Bristol\",\"state\":\"CT\",\"zip\":\"06010-2785\"}", "41.701033", "-72.921787", null, false ], "06010-2785", "860-584-7827", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1998 0:00:00.000", "0" ]
+, [ 287, "A76BB686-3986-4E51-964D-FF5C22D8E4C6", 287, 1477676201, "878954", 1477676256, "878954", null, "West District School", "Public Schools", "0520311", [ "{\"address\":\"114 West District Road\",\"city\":\"Unionville\",\"state\":\"CT\",\"zip\":\"06085\"}", "41.736609", "-72.879254", null, false ], "06085", "860-673-2579", "0", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 15, "A7E9294D-7706-47D3-9BD8-4C5403D2DB9C", 15, 1477676201, "878954", 1477676256, "878954", null, "Avon High School", "Public Schools", "0046111", [ "{\"address\":\"510 West Avon Rd.\",\"city\":\"Avon\",\"state\":\"CT\",\"zip\":\"06001-2519\"}", "41.781511", "-72.864107", null, false ], "06001-2519", "860-404-4740", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 35, "A951881A-6D99-4DD1-9B01-7AA3273914B5", 35, 1477676201, "878954", 1477676256, "878954", null, "Carmen Arace Intermediate School", "Public Schools", "0110711", [ "{\"address\":\"390 Park Ave.\",\"city\":\"Bloomfield\",\"state\":\"CT\",\"zip\":\"06002-3100\"}", "41.82236", "-72.714592", null, false ], "06002-3100", "860-286-2626", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul2004 0:00:00.000", "0" ]
+, [ 11, "A957E034-5CF5-4AF8-B7C7-CF8AF71D0F20", 11, 1477676201, "878954", 1477676256, "878954", null, "Roaring Brook School", "Public Schools", "0040311", [ "{\"address\":\"30 Old Wheeler Ln.\",\"city\":\"Avon\",\"state\":\"CT\",\"zip\":\"06001-4061\"}", "41.791646", "-72.890398", null, false ], "06001-4061", "860-404-4810", "0", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 396, "A9A7080C-F26D-42D6-BF48-44BE9DC935FA", 396, 1477676201, "878954", 1477676256, "878954", null, "Culinary Arts Academy at Weaver High School", "Public Schools", "0646011", [ "{\"address\":\"85 Sigourney Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105\"}", "41.76667", "-72.693801", null, false ], "06105", "860-695-1640", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "25Aug2008 0:00:00.000", "0" ]
+, [ 362, "AA0D3687-BB0B-48A0-BB85-1007B0ADD9F9", 362, 1477676201, "878954", 1477676256, "878954", null, "Hartford School District", "Public School Districts", "0640011", [ "{\"address\":\"249 High Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06103\"}", "41.772385", "-72.677792", null, false ], "06103", "860-695-8000", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 599, "AAD1A09D-9C65-4C17-A123-FCF6922D058D", 599, 1477676201, "878954", 1477676256, "878954", null, "Elizabeth Green School", "Public Schools", "0940211", [ "{\"address\":\"30 Thomas St.\",\"city\":\"Newington\",\"state\":\"CT\",\"zip\":\"06111-2059\"}", "41.713688", "-72.722123", null, false ], "06111-2059", "860-666-3394", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 37, "AB8BF70A-B5F0-4CDF-B67B-0F4E916ABD53", 37, 1477676201, "878954", 1477676256, "878954", null, "Carmen Arace Middle School", "Public Schools", "0115211", [ "{\"address\":\"390 Park Ave.\",\"city\":\"Bloomfield\",\"state\":\"CT\",\"zip\":\"06002-3100\"}", "41.82236", "-72.714592", null, false ], "06002-3100", "860-286-2622", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 391, "ABEA9E86-09B5-412B-9E85-3B0630558FE5", 391, 1477676201, "878954", 1477676256, "878954", null, "Montessori Magnet at Fisher School", "Public Schools", "0643711", [ "{\"address\":\"280 Plainfield Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112-1028\"}", "41.791455", "-72.708169", null, false ], "06112-1028", "860-695-3560", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "25Aug2008 0:00:00.000", "1" ]
+, [ 33, "AC4154FF-6F2E-4605-9D27-B4DD77BD6376", 33, 1477676201, "878954", 1477676256, "878954", null, "Metacomet School", "Public Schools", "0110511", [ "{\"address\":\"185 School St.\",\"city\":\"Bloomfield\",\"state\":\"CT\",\"zip\":\"06002-2718\"}", "41.825362", "-72.707713", null, false ], "06002-2718", "860-286-2660", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2011 0:00:00.000", "0" ]
+, [ 120, "AD5A1A15-0FEB-4747-B57A-70D1B7F5F685", 120, 1477676201, "878954", 1477676256, "878954", null, "Canton High School", "Public Schools", "0236111", [ "{\"address\":\"76 Simonds Avenue\",\"city\":\"Canton\",\"state\":\"CT\",\"zip\":\"06019-1207\"}", "41.823647", "-72.91683", null, false ], "06019-1207", "860-693-7707", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 377, "AD627A72-A300-4C2A-8F70-2D40CB002650", 377, 1477676201, "878954", 1477676256, "878954", null, "Rawson School", "Public Schools", "0641711", [ "{\"address\":\"260 Holcomb Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112-1436\"}", "41.795753", "-72.700254", null, false ], "06112-1436", "860-695-4840", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 34, "ADA23D42-0CA5-40D5-9446-96485E79597A", 34, 1477676201, "878954", 1477676256, "878954", null, "Laurel School", "Public Schools", "0110611", [ "{\"address\":\"1 Filley St.\",\"city\":\"Bloomfield\",\"state\":\"CT\",\"zip\":\"06002-1854\"}", "41.8366", "-72.722107", null, false ], "06002-1854", "860-286-2675", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2012 0:00:00.000", "0" ]
+, [ 981, "B0818CCE-4135-4872-B2EC-4FEEF1BB577A", 981, 1477676201, "878954", 1477676256, "878954", null, "Conard High School", "Public Schools", "1556111", [ "{\"address\":\"110 Beechwood Rd.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06107\"}", "41.735275", "-72.748052", null, false ], "06107", "860-231-5000", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 447, "B152C938-C472-4948-B573-1BEF42DBA66E", 447, 1477676201, "878954", 1477676256, "878954", null, "Bowers School", "Public Schools", "0770111", [ "{\"address\":\"141 Princeton St.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06042-3272\"}", "41.788434", "-72.511322", null, false ], "06042-3272", "860-647-3313", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 403, "B2CAFF54-F839-4311-AD99-779781ECB892", 403, 1477676201, "878954", 1477676260, "878954", null, "HPHS Engineering and Green Technology Academy", "Public Schools", "0647211", [ "{\"address\":\"55 Forest Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105\"}", "41.765472", "-72.700221", null, false ], "06105", "860-695-1315", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2009 0:00:00.000", "0" ]
+, [ 290, "B3F2CA58-E1CA-4A6E-A6B0-D14B08A41698", 290, 1477676201, "878954", 1477676260, "878954", null, "Irving A. Robbins Middle School", "Public Schools", "0525111", [ "{\"address\":\"20 Wolf Pit Rd.\",\"city\":\"Farmington\",\"state\":\"CT\",\"zip\":\"06032-2435\"}", "41.720403", "-72.800181", null, false ], "06032-2435", "860-677-2683", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 395, "BBC2EB20-0AEA-4003-AA98-C14936301858", 395, 1477676201, "878954", 1477676260, "878954", null, "Hartford Magnet Trinity College Academy", "Public Schools", "0645411", [ "{\"address\":\"53 Vernon Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06103\"}", "41.751262", "-72.686491", null, false ], "06103", "860-757-6201", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "01Jul1999 0:00:00.000", "1" ]
+, [ 378, "BD7FAEA8-B5E9-4188-8043-B5E0EC389A1C", 378, 1477676201, "878954", 1477676260, "878954", null, "Milner School", "Public Schools", "0641911", [ "{\"address\":\"104 Vine Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112-2271\"}", "41.782572", "-72.688205", null, false ], "06112-2271", "860-695-4380", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 882, "BDD2ACBB-B214-4FE0-B5FC-E16494E4A6EF", 882, 1477676201, "878954", 1477676260, "878954", null, "Vogel-Wetmore School", "Public Schools", "1431311", [ "{\"address\":\"68 Church St.\",\"city\":\"Torrington\",\"state\":\"CT\",\"zip\":\"06790-5217\"}", "41.803874", "-73.123374", null, false ], "06790-5217", "860-489-2570", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1987 0:00:00.000", "0" ]
+, [ 368, "BDE87963-ABF0-4E84-A81F-D3E6AF849C25", 368, 1477676201, "878954", 1477676260, "878954", null, "M. D. Fox School", "Public Schools", "0640811", [ "{\"address\":\"470 Maple Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114-1215\"}", "41.746596", "-72.680861", null, false ], "06114-1215", "860-695-3600", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 966, "BFC1CE89-F739-4027-AE88-5649379F6324", 966, 1477676201, "878954", 1477676260, "878954", null, "West Hartford School District", "Public School Districts", "1550011", [ "{\"address\":\"50 South Main Street\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06107\"}", "41.758969", "-72.742404", null, false ], "06107", "860-561-6600", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 977, "C33DA0EE-DB52-4BA6-B3B3-B00E6063A271", 977, 1477676201, "878954", 1477676260, "878954", null, "Smith School", "Public Schools", "1551711", [ "{\"address\":\"64 St. James St.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06119-2325\"}", "41.751416", "-72.724832", null, false ], "06119-2325", "860-236-3317", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1995 0:00:00.000", "0" ]
+, [ 598, "C4DE2B95-84DB-46E7-B365-E8D9EBC86871", 598, 1477676201, "878954", 1477676260, "878954", null, "Newington School District", "Public School Districts", "0940011", [ "{\"address\":\"131 Cedar Street\",\"city\":\"Newington\",\"state\":\"CT\",\"zip\":\"06111\"}", "41.69686", "-72.728994", null, false ], "06111", "860-667-2000", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 600, "C73DCCA8-5D6D-4202-87FA-A9674792A90A", 600, 1477676201, "878954", 1477676261, "878954", null, "Anna Reynolds School", "Public Schools", "0940611", [ "{\"address\":\"85 Reservoir Rd.\",\"city\":\"Newington\",\"state\":\"CT\",\"zip\":\"06111-1025\"}", "41.716006", "-72.746058", null, false ], "06111-1025", "860-521-7830", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 213, "C774FF3C-89DD-46FE-825A-D477FB791298", 213, 1477676201, "878954", 1477676261, "878954", null, "Dr. Franklin H. Mayberry School", "Public Schools", "0430611", [ "{\"address\":\"101 Great Hill Rd.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06108-2833\"}", "41.776131", "-72.595744", null, false ], "06108-2833", "860-622-5720", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 153, "CC1B305D-3C44-4BB9-A6AF-DAD474BE707C", 153, 1477676201, "878954", 1477676261, "878954", null, "Coventry High School", "Public Schools", "0326111", [ "{\"address\":\"78 Ripley Hill Road\",\"city\":\"Coventry\",\"state\":\"CT\",\"zip\":\"06238-1653\"}", "41.782222", "-72.31434", null, false ], "06238-1653", "860-742-7346", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 42, "CCF51F14-B9D1-4C39-A656-102879D6780D", 42, 1477676201, "878954", 1477676261, "878954", null, "Bolton Center School", "Public Schools", "0120111", [ "{\"address\":\"108 Notch Rd.\",\"city\":\"Bolton\",\"state\":\"CT\",\"zip\":\"06043-7498\"}", "41.775394", "-72.442618", null, false ], "06043-7498", "860-643-2411", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 150, "D0F30D4F-8D50-40B9-B5A4-8A5D24BA5CF4", 150, 1477676201, "878954", 1477676268, "878954", null, "Coventry Grammar School", "Public Schools", "0320211", [ "{\"address\":\"3453 Main Street\",\"city\":\"Coventry\",\"state\":\"CT\",\"zip\":\"06238-1568\"}", "41.796001", "-72.367313", null, false ], "06238-1568", "860-742-7313", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 152, "D1D9FF74-0433-493F-895E-6C4751B1DF90", 152, 1477676201, "878954", 1477676268, "878954", null, "Capt. Nathan Hale School", "Public Schools", "0325111", [ "{\"address\":\"1776 Main Street\",\"city\":\"Coventry\",\"state\":\"CT\",\"zip\":\"06238-1656\"}", "41.780439", "-72.312968", null, false ], "06238-1656", "860-742-7334", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 363, "D319F05E-74F9-4910-8DF0-065EC3192C81", 363, 1477676201, "878954", 1477676268, "878954", null, "SAND School", "Public Schools", "0640111", [ "{\"address\":\"1750 Main Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06120\"}", "41.778567", "-72.676209", null, false ], "06120", "860-695-5040", "0", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 376, "D34047E0-6105-4CCB-AAEF-1C3483EECD3F", 376, 1477676201, "878954", 1477676268, "878954", null, "M. L. King, Jr. School", "Public Schools", "0641611", [ "{\"address\":\"25 Ridgefield Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112-1835\"}", "41.785598", "-72.696006", null, false ], "06112-1835", "860-695-3980", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 796, "D3B6358F-3F41-4590-B4C6-A2B490AECE69", 796, 1477676201, "878954", 1477676268, "878954", null, "Philip R. Smith School", "Public Schools", "1320111", [ "{\"address\":\"949 Avery St.\",\"city\":\"South Windsor\",\"state\":\"CT\",\"zip\":\"06074-2306\"}", "41.840452", "-72.511764", null, false ], "06074-2306", "860-648-5025", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 451, "D49B1214-9CCC-49C0-A355-FB31308E7C67", 451, 1477676201, "878954", 1477676268, "878954", null, "Robertson School", "Public Schools", "0771011", [ "{\"address\":\"65 North School St.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06042-2012\"}", "41.797101", "-72.525517", null, false ], "06042-2012", "860-647-3372", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 364, "D6A28FAE-23C0-4464-B601-CD05E7497F8B", 364, 1477676201, "878954", 1477676268, "878954", null, "Batchelder School", "Public Schools", "0640411", [ "{\"address\":\"757 New Britain Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106-3913\"}", "41.733029", "-72.707841", null, false ], "06106-3913", "860-695-2720", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 454, "D772CF6C-241C-4B4A-A1E3-D631DA4F1F8B", 454, 1477676201, "878954", 1477676268, "878954", null, "Washington School", "Public Schools", "0771411", [ "{\"address\":\"94 Cedar St.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040-5890\"}", "41.767033", "-72.533259", null, false ], "06040-5890", "860-647-3332", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 119, "D8738AC0-615F-41F8-90BF-6E6EA8937586", 119, 1477676201, "878954", 1477676268, "878954", null, "Canton Middle School", "Public Schools", "0235111", [ "{\"address\":\"76 Simonds Avenue\",\"city\":\"Canton\",\"state\":\"CT\",\"zip\":\"06019-1207\"}", "41.823647", "-72.91683", null, false ], "06019-1207", "860-693-7712", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul2004 0:00:00.000", "0" ]
+, [ 979, "D8797906-E446-4278-BB86-91E34E662F85", 979, 1477676201, "878954", 1477676268, "878954", null, "Sedgwick Middle School", "Public Schools", "1555211", [ "{\"address\":\"128 Sedgwick Rd.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06107-3002\"}", "41.750913", "-72.754815", null, false ], "06107-3002", "860-570-6500", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 365, "DC2F09FB-484E-471B-9137-38459227D938", 365, 1477676201, "878954", 1477676268, "878954", null, "Montessori Magnet at Moylan School", "Public Schools", "0640511", [ "{\"address\":\"101 Catherine Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.746325", "-72.69866", null, false ], "06106", "860-695-2600", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul2013 0:00:00.000", "1" ]
+, [ 371, "DCFE0137-6F3D-4094-8555-BCDE4B3A02DD", 371, 1477676201, "878954", 1477676268, "878954", null, "Kinsella Magnet School of Performing Arts", "Public Schools", "0641111", [ "{\"address\":\"65 Van Block Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06114\"}", "41.755051", "-72.664936", null, false ], "06114", "860-695-4140", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "1" ]
+, [ 553, "DE8EDE6C-9DA7-4166-9351-FA3CFAA53D2C", 553, 1477676201, "878954", 1477676268, "878954", null, "New Hartford School District", "Public School Districts", "0920011", [ "{\"address\":\"530 Main Street, Box 315\",\"city\":\"New Hartford\",\"state\":\"CT\",\"zip\":\"06057\"}", "41.878957", "-72.979904", null, false ], "06057", "860-379-8546", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1996 0:00:00.000", "0" ]
+, [ 774, "DF1B6836-DE67-4C7C-AC51-46FE84BB37E9", 774, 1477676201, "878954", 1477676268, "878954", null, "Squadron Line School", "Public Schools", "1280711", [ "{\"address\":\"44 Squadron Line Rd.\",\"city\":\"Simsbury\",\"state\":\"CT\",\"zip\":\"06070-1636\"}", "41.901616", "-72.806577", null, false ], "06070-1636", "860-658-2251", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 446, "DFEAB0E0-3643-44C7-B91D-15844F1EA814", 446, 1477676201, "878954", 1477676268, "878954", null, "Manchester School District", "Public School Districts", "0770011", [ "{\"address\":\"45 North School Street\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06042-2010\"}", "41.796562", "-72.525398", null, false ], "06042-2010", "860-647-3441", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 881, "E04BBF2E-A709-4E4F-A632-9D1D18DE61B6", 881, 1477676201, "878954", 1477676268, "878954", null, "Torringford School", "Public Schools", "1430911", [ "{\"address\":\"800 Charles St.\",\"city\":\"Torrington\",\"state\":\"CT\",\"zip\":\"06790\"}", "41.819853", "-73.093786", null, false ], "06790", "860-489-2300", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 980, "E1181377-FF8D-4399-B7EE-7F7ACE48CE62", 980, 1477676201, "878954", 1477676268, "878954", null, "Bristow Middle School", "Public Schools", "1555311", [ "{\"address\":\"34 Highland St.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06102\"}", "41.769174", "-72.717979", null, false ], "06102", "860-231-2100", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul2005 0:00:00.000", "0" ]
+, [ 903, "E207FB28-27D3-469D-933B-4724EF2B68D1", 903, 1477676201, "878954", 1477676268, "878954", null, "Vernon Center Middle School", "Public Schools", "1465111", [ "{\"address\":\"777 Hartford Tpke.\",\"city\":\"Vernon\",\"state\":\"CT\",\"zip\":\"06066-5126\"}", "41.841173", "-72.462032", null, false ], "06066-5126", "860-870-6070", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 380, "E209ADE7-9D84-4905-B7F0-6E4905FFDB91", 380, 1477676201, "878954", 1477676268, "878954", null, "West Middle School", "Public Schools", "0642111", [ "{\"address\":\"927 Asylum Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105-2429\"}", "41.77079", "-72.695583", null, false ], "06105-2429", "860-695-5480", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 556, "E253E7FA-18CA-4E90-87D4-69EB003B1F01", 556, 1477676201, "878954", 1477676268, "878954", null, "Ann Antolini School", "Public Schools", "0920311", [ "{\"address\":\"30 Antolini Road\",\"city\":\"New Hartford\",\"state\":\"CT\",\"zip\":\"06057-3326\"}", "41.827588", "-73.015081", null, false ], "06057-3326", "860-489-4169", "0", "0", "0", "0", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 32, "E31EECCF-0DC9-4C93-88AB-F5294DF72D3D", 32, 1477676201, "878954", 1477676268, "878954", null, "Bloomfield School District", "Public School Districts", "0110011", [ "{\"address\":\"1133 Blue Hills Avenue\",\"city\":\"Bloomfield\",\"state\":\"CT\",\"zip\":\"06002\"}", "41.833149", "-72.697874", null, false ], "06002", "860-769-4200", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 967, "E3235F13-E474-41EF-92F7-0E15008611EA", 967, 1477676201, "878954", 1477676268, "878954", null, "Braeburn School", "Public Schools", "1550211", [ "{\"address\":\"45 Braeburn Rd.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06107-1605\"}", "41.762843", "-72.76097", null, false ], "06107-1605", "860-561-2200", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 10, "E3836212-3317-4E38-B12A-3D6B4F5AFC45", 10, 1477676201, "878954", 1477676268, "878954", null, "Avon School District", "Public School Districts", "0040011", [ "{\"address\":\"34 Simsbury Road\",\"city\":\"Avon\",\"state\":\"CT\",\"zip\":\"06001\"}", "41.813451", "-72.83022", null, false ], "06001", "860-404-4700", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 214, "E64AF638-8B9D-4284-A14F-E8C4C3EB4378", 214, 1477676201, "878954", 1477676268, "878954", null, "Anna E. Norris School", "Public Schools", "0430911", [ "{\"address\":\"40 Remington Rd.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06108-4010\"}", "41.784926", "-72.631363", null, false ], "06108-4010", "860-622-5740", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 978, "E77D3054-860A-415D-8B26-E8172538B117", 978, 1477676201, "878954", 1477676273, "878954", null, "King Philip Middle School", "Public Schools", "1555111", [ "{\"address\":\"100 King Philip Dr.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06117-1316\"}", "41.793505", "-72.74291", null, false ], "06117-1316", "860-233-8236", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 975, "E8E479BB-4379-4350-AAFD-3B648169A3D8", 975, 1477676201, "878954", 1477676273, "878954", null, "Wolcott School", "Public Schools", "1551511", [ "{\"address\":\"71 Wolcott Rd.\",\"city\":\"West Hartford\",\"state\":\"CT\",\"zip\":\"06110-1764\"}", "41.725289", "-72.748133", null, false ], "06110-1764", "860-561-2300", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 408, "E9A3F00B-0136-4E83-93D5-650C03C73D16", 408, 1477676201, "878954", 1477676273, "878954", null, "Great Path Academy at MCC", "Public Schools", "0647911", [ "{\"address\":\"60 Bidwell Street, MS #20\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06045\"}", "41.764578", "-72.554719", null, false ], "06045", "860-521-3700", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2012 0:00:00.000", "1" ]
+, [ 400, "EB6C74DE-DF1C-40D2-91CD-87878F1AE733", 400, 1477676201, "878954", 1477676273, "878954", null, "University High School of Science and Engineering", "Public Schools", "0646711", [ "{\"address\":\"351 Mark Twain Drive\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112\"}", "41.797834", "-72.709685", null, false ], "06112", "860-695-9020", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2004 0:00:00.000", "1" ]
+, [ 456, "EBADB217-CA7A-4A1A-AA95-1580E52C258F", 456, 1477676201, "878954", 1477676273, "878954", null, "Elisabeth M. Bennet Academy", "Public Schools", "0771711", [ "{\"address\":\"1151 Main St.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040-6011\"}", "41.765966", "-72.52042", null, false ], "06040-6011", "860-647-3571", "0", "0", "0", "0", "0", "0", "0", "1", "0", "0", "0", "0", "0", "0", "27Aug2008 0:00:00.000", "0" ]
+, [ 369, "EC369B49-FBB9-446F-A428-28AC0F66C992", 369, 1477676201, "878954", 1477676273, "878954", null, "Environmental Sciences Magnet at Hooker School", "Public Schools", "0640911", [ "{\"address\":\"440 Broadview Terrace\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.741112", "-72.700528", null, false ], "06106", "860-695-3760", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "1" ]
+, [ 243, "ED12AF4B-46D4-458D-A6EE-2B014A1951BA", 243, 1477676201, "878954", 1477676273, "878954", null, "East Windsor School District", "Public School Districts", "0470011", [ "{\"address\":\"70 South Main Street\",\"city\":\"East Windsor\",\"state\":\"CT\",\"zip\":\"06088\"}", "41.903018", "-72.611954", null, false ], "06088", "860-623-3346", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 296, "F149AF93-ED95-4FD1-BD4F-2FCEC2FFAACA", 296, 1477676201, "878954", 1477676273, "878954", null, "Eastbury School", "Public Schools", "0540311", [ "{\"address\":\"1389 Neipsic Rd.\",\"city\":\"Glastonbury\",\"state\":\"CT\",\"zip\":\"06033-3414\"}", "41.695864", "-72.537677", null, false ], "06033-3414", "860-652-7858", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 453, "F1DBDFDB-DC83-4F19-80BA-55FE9F4DD53E", 453, 1477676201, "878954", 1477676273, "878954", null, "Waddell School", "Public Schools", "0771311", [ "{\"address\":\"163 Broad St.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06042-2903\"}", "41.78315", "-72.535283", null, false ], "06042-2903", "860-647-3392", "0", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 303, "F4D7B6B3-10BC-4923-A6C5-64ADA4A0EC77", 303, 1477676201, "878954", 1477676273, "878954", null, "Glastonbury High School", "Public Schools", "0546111", [ "{\"address\":\"330 Hubbard St.\",\"city\":\"Glastonbury\",\"state\":\"CT\",\"zip\":\"06033-3047\"}", "41.702969", "-72.589996", null, false ], "06033-3047", "860-652-7200", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 389, "F740FCDF-B2FD-4FD3-877C-A4E3AFA3F109", 389, 1477676201, "878954", 1477676273, "878954", null, "Breakthrough II Magnet School", "Public Schools", "0643511", [ "{\"address\":\"395 Lyme Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06120\"}", "41.804787", "-72.704285", null, false ], "06120", "860-695-6050", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "25Aug2008 0:00:00.000", "1" ]
+, [ 394, "F830D2F1-52BF-4700-9571-C625A70EA47E", 394, 1477676201, "878954", 1477676273, "878954", null, "Renzulli Gifted and Talented Academy", "Public Schools", "0644011", [ "{\"address\":\"260 Holcomb Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112\"}", "41.795753", "-72.700254", null, false ], "06112", "860-695-5160", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul2010 0:00:00.000", "0" ]
+, [ 149, "F8968256-205C-4D76-B596-10E7228971C4", 149, 1477676201, "878954", 1477676273, "878954", null, "Coventry School District", "Public School Districts", "0320011", [ "{\"address\":\"1700 Main Street\",\"city\":\"Coventry\",\"state\":\"CT\",\"zip\":\"06238\"}", "41.779982", "-72.312218", null, false ], "06238", "860-742-7317", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 387, "F9CF0657-7C3C-49DF-84C7-DCB4A54E2251", 387, 1477676201, "878954", 1477676273, "878954", null, "Expeditionary Learning Academy at Moylan School", "Public Schools", "0643211", [ "{\"address\":\"101 Catherine Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.746325", "-72.69866", null, false ], "06106", "860-695-4500", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1998 0:00:00.000", "0" ]
+, [ 17, "FCF47BD5-FB69-4FE6-945A-DA2703196984", 17, 1477676201, "878954", 1477676273, "878954", null, "Barkhamsted Elementary School", "Public Schools", "0050111", [ "{\"address\":\"65 Ripley Hill Rd.\",\"city\":\"Barkhamsted\",\"state\":\"CT\",\"zip\":\"06063\"}", "41.911255", "-72.991687", null, false ], "06063", "860-379-2729", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1218, "003473F2-B508-47A2-978E-EEE78A4D6EED", 1218, 1477676201, "878954", 1477676284, "878954", null, "Hartford Detention Center", "State Agency Facilities", "3480315", [ "{\"address\":\"920 Broad St.\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.75687", "-72.687045", null, false ], "06106", "860-244-7965", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "14May2009 0:00:00.000", "0" ]
+, [ 1145, "032BB78F-C54E-4486-B3A2-AB1B4BF97C21", 1145, 1477676201, "878954", 1477676284, "878954", null, "Two Rivers Magnet High School", "Regional Education Service Center Schools", "2416714", [ "{\"address\":\"160 Huyshope Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.75513", "-72.6637", null, false ], "06106", "860-422-7095", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "25Aug2012 0:00:00.000", "1" ]
+, [ 1164, "0384F53D-D638-4E53-BD9F-6D85959B90EF", 1164, 1477676201, "878954", 1477676284, "878954", null, "Jumoke Academy", "Public Charter Schools", "2610113", [ "{\"address\":\"834 Asylum Ave.\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105\"}", "41.769801", "-72.692389", null, false ], "06105", "860-527-0575", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1997 0:00:00.000", "0" ]
+, [ 1039, "03862949-A483-461A-B72C-8A51CD911DF3", 1039, 1477676201, "878954", 1477676284, "878954", null, "Sage Park Middle School", "Public Schools", "1645311", [ "{\"address\":\"25 Sage Park Rd.\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095-3328\"}", "41.844494", "-72.658604", null, false ], "06095-3328", "860-687-2030", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1238, "0B0CAF1F-6B58-46C9-AC75-52862D63C689", 1238, 1477676201, "878954", 1477676284, "878954", null, "Oliver Wolcott Technical High School", "CT Technical High Schools", "9002216", [ "{\"address\":\"75 Oliver St.\",\"city\":\"Torrington\",\"state\":\"CT\",\"zip\":\"06790-3859\"}", "41.810103", "-73.111698", null, false ], "06790-3859", "860-496-5300", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2000 0:00:00.000", "0" ]
+, [ 1009, "1B45E39F-9751-4990-90D9-83B74FCDF54E", 1009, 1477676201, "878954", 1477676284, "878954", null, "Alfred W. Hanmer School", "Public Schools", "1590811", [ "{\"address\":\"50 Francis St.\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109-1801\"}", "41.715593", "-72.658709", null, false ], "06109-1801", "860-571-8370", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1135, "1ED4F1CF-7B28-4FA8-80B4-FFF97FB2046A", 1135, 1477676201, "878954", 1477676284, "878954", null, "Ana Grace Academy of the Arts Elementary School", "Regional Education Service Center Schools", "2410614", [ "{\"address\":\"20 Security Drive\",\"city\":\"Avon\",\"state\":\"CT\",\"zip\":\"06001\"}", "41.807617", "-72.836212", null, false ], "06001", "860-726-9367", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "25Aug2012 0:00:00.000", "1" ]
+, [ 1165, "25D77BA2-B0D8-42EA-B283-91810DF59FBB", 1165, 1477676201, "878954", 1477676284, "878954", null, "Odyssey Community School", "Public Charter Schools", "2635113", [ "{\"address\":\"579 West Middle Tpke.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040\"}", "41.781054", "-72.550379", null, false ], "06040", "860-645-1234", "0", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1997 0:00:00.000", "0" ]
+, [ 1008, "2B09E248-DB3B-429D-A27B-5484245C86A9", 1008, 1477676201, "878954", 1477676284, "878954", null, "Emerson-Williams School", "Public Schools", "1590211", [ "{\"address\":\"461 Wells Rd.\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109-2867\"}", "41.702219", "-72.679541", null, false ], "06109-2867", "860-571-8360", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1037, "2EECD8A2-8051-4092-B512-1A558256BDC5", 1037, 1477676201, "878954", 1477676284, "878954", null, "John F. Kennedy School", "Public Schools", "1640811", [ "{\"address\":\"530 Park Ave.\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095-3225\"}", "41.836521", "-72.674828", null, false ], "06095-3225", "860-687-2060", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1194, "34BE26E0-24B3-4305-9513-91C19FE84191", 1194, 1477676201, "878954", 1477676284, "878954", null, "Hartford Correctional Center", "State Agency Facilities", "3360615", [ "{\"address\":\"177 Weston St.\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06120-1514\"}", "41.792496", "-72.660232", null, false ], "06120-1514", "860-240-1865", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2000 0:00:00.000", "0" ]
+, [ 1016, "34D0A3EF-0214-41E3-9C3C-2D80422239A3", 1016, 1477676201, "878954", 1477676284, "878954", null, "Center School", "Public Schools", "1600111", [ "{\"address\":\"12 Old Farms Rd.\",\"city\":\"West Willington\",\"state\":\"CT\",\"zip\":\"06279-1732\"}", "41.873456", "-72.262578", null, false ], "06279-1732", "860-429-9367", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1222, "38C04297-3F4C-4038-B147-55BB55E19885", 1222, 1477676201, "878954", 1477676284, "878954", null, "BRAVE", "State Agency Facilities", "3481115", [ "{\"address\":\"123 Washington St\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.758771", "-72.682223", null, false ], "06106", "203-848-1238", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "05Jan2010 0:00:00.000", "0" ]
+, [ 1038, "40D43BB5-4ABF-4C65-8078-92CB70269E4E", 1038, 1477676201, "878954", 1477676284, "878954", null, "Oliver Ellsworth School", "Public Schools", "1640911", [ "{\"address\":\"730 Kennedy Ave.\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095-1925\"}", "41.882785", "-72.642597", null, false ], "06095-1925", "860-687-2070", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1035, "457077BA-01A8-46A5-A861-4A6AEFF5FCC4", 1035, 1477676201, "878954", 1477676284, "878954", null, "Clover Street School", "Public Schools", "1640111", [ "{\"address\":\"57 Clover St.\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095-3708\"}", "41.831323", "-72.662615", null, false ], "06095-3708", "860-687-2050", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1081, "489262AE-FE19-4A58-81B2-866574734DF1", 1081, 1477676201, "878954", 1477676284, "878954", null, "Harwinton Consolidated School", "Regional Schools", "2100312", [ "{\"address\":\"115 Litchfield Rd.\",\"city\":\"Hawrinton\",\"state\":\"CT\",\"zip\":\"06791-2204\"}", "41.769576", "-73.070574", null, false ], "06791-2204", "860-485-9029", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2002 0:00:00.000", "0" ]
+, [ 1015, "560E97DA-B664-45D9-95AD-20E83C22D93A", 1015, 1477676201, "878954", 1477676284, "878954", null, "Willington School District", "Public School Districts", "1600011", [ "{\"address\":\"40A Old Farms Road,\",\"city\":\"Willington\",\"state\":\"CT\",\"zip\":\"06279\"}", "41.870603", "-72.260134", null, false ], "06279", "860-487-3130", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1996 0:00:00.000", "0" ]
+, [ 1012, "586B9038-733D-41C0-B8F9-12DDA4A29D8A", 1012, 1477676201, "878954", 1477676284, "878954", null, "Samuel B. Webb Elementary School", "Public Schools", "1591211", [ "{\"address\":\"51 Willow St.\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109-2798\"}", "41.698933", "-72.690763", null, false ], "06109-2798", "860-571-8340", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1997 0:00:00.000", "0" ]
+, [ 1007, "617086C1-CA77-4EDD-89D1-B8D0EC85678E", 1007, 1477676201, "878954", 1477676284, "878954", null, "Wethersfield School District", "Public School Districts", "1590011", [ "{\"address\":\"51 Willow Street\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109\"}", "41.698933", "-72.690763", null, false ], "06109", "860-571-8110", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 1225, "6311B102-0BCB-411D-8C02-A249BF5D3CB0", 1225, 1477676201, "878954", 1477676284, "878954", null, "Office of Early Childhood (OEC)", "State Agencies", "3490015", [ "{\"address\":\"460 Capitol Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.76359", "-72.691281", null, false ], "06106", "860-418-6148", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2000 0:00:00.000", "0" ]
+, [ 1179, "67B35C0F-0CA4-4594-B940-2ED58823D856", 1179, 1477676201, "878954", 1477676284, "878954", null, "Achievement First Hartford Academy Inc.", "Public Charter Schools", "2880113", [ "{\"address\":\"305 Greenfield Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112\"}", "41.784608", "-72.697162", null, false ], "06112", "860-695-6685", "0", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "26Aug2008 0:00:00.000", "0" ]
+, [ 1205, "69442799-837C-4A66-9FE1-6CDC61FD86FE", 1205, 1477676201, "878954", 1477676289, "878954", null, "Department of Mental Health and Addiction Services", "State Agencies", "3370015", [ "{\"address\":\"410 Capitol Avenue, Box 341431\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06134\"}", "41.763725", "-72.689632", null, false ], "06134", "860-262-7009", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2000 0:00:00.000", "0" ]
+, [ 1079, "6A805CB7-3F8F-4140-ACD3-18BA16D598FB", 1079, 1477676201, "878954", 1477676289, "878954", null, "Regional School District 10", "Regional School Districts", "2100012", [ "{\"address\":\"24 Lyon Road\",\"city\":\"Burlington\",\"state\":\"CT\",\"zip\":\"06013\"}", "41.781068", "-72.989441", null, false ], "06013", "860-673-2538", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul2002 0:00:00.000", "0" ]
+, [ 1071, "70AAB9D0-15A5-43F0-866B-7A49FC3FD560", 1071, 1477676201, "878954", 1477676289, "878954", null, "Regional School District 07", "Regional School Districts", "2070012", [ "{\"address\":\"100 Battistoni Drive\",\"city\":\"Winsted\",\"state\":\"CT\",\"zip\":\"06098\"}", "41.911883", "-73.047684", null, false ], "06098", "860-379-1084", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "01Jul2002 0:00:00.000", "0" ]
+, [ 1034, "718C52DD-FB79-40DE-B53B-BE2E3AC0EDA3", 1034, 1477676201, "878954", 1477676289, "878954", null, "Windsor School District", "Public School Districts", "1640011", [ "{\"address\":\"601 Matianuck Avenue\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095\"}", "41.823999", "-72.673022", null, false ], "06095", "860-687-2000", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul1996 0:00:00.000", "0" ]
+, [ 1137, "71CFDB05-1B08-45CC-9B27-A9E25D58F4D2", 1137, 1477676201, "878954", 1477676289, "878954", null, "Montessori Magnet School", "Regional Education Service Center Schools", "2413114", [ "{\"address\":\"1460 Broad St.\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.749562", "-72.687108", null, false ], "06106", "860-757-6117", "1", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul2000 0:00:00.000", "1" ]
+, [ 1073, "76B7EC07-8087-471A-97F5-7C7F6B716697", 1073, 1477676201, "878954", 1477676289, "878954", null, "Northwestern Regional High School", "Regional Schools", "2076112", [ "{\"address\":\"100 Battistoni Dr.\",\"city\":\"Winsted\",\"state\":\"CT\",\"zip\":\"06098-1899\"}", "41.911883", "-73.047684", null, false ], "06098-1899", "860-379-8525", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2002 0:00:00.000", "0" ]
+, [ 1130, "82D43A68-32C4-4FB8-9FA8-08F116E80571", 1130, 1477676201, "878954", 1477676289, "878954", null, "Glastonbury/East Hartford Magnet School", "Regional Education Service Center Schools", "2410114", [ "{\"address\":\"95 Oak Street\",\"city\":\"Glastonbury\",\"state\":\"CT\",\"zip\":\"06033\"}", "41.706216", "-72.594014", null, false ], "06033", "860-633-4455", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "01Jul2000 0:00:00.000", "1" ]
+, [ 1132, "83B81313-279E-4A76-A1FA-5E4832509E42", 1132, 1477676201, "878954", 1477676289, "878954", null, "Reggio Magnet School of the Arts", "Regional Education Service Center Schools", "2410314", [ "{\"address\":\"59 Waterville Road\",\"city\":\"Avon\",\"state\":\"CT\",\"zip\":\"06001\"}", "41.800895", "-72.81903", null, false ], "06001", "860-674-8549", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "02Sep2008 0:00:00.000", "1" ]
+, [ 1134, "85D49B56-BC08-4B57-A9E1-F957FADC8912", 1134, 1477676201, "878954", 1477676289, "878954", null, "Museum Academy", "Regional Education Service Center Schools", "2410514", [ "{\"address\":\"10 Targeting Centre\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095\"}", "41.852367", "-72.666776", null, false ], "06095", "860-231-7800", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "30Aug2011 0:00:00.000", "1" ]
+, [ 1082, "87D017BA-A9FA-4BA2-907E-2E4DE97D63F3", 1082, 1477676201, "878954", 1477676289, "878954", null, "Har-Bur Middle School", "Regional Schools", "2105112", [ "{\"address\":\"26 Lyon Rd.\",\"city\":\"Burlington\",\"state\":\"CT\",\"zip\":\"06013-1313\"}", "41.781187", "-72.989324", null, false ], "06013-1313", "860-673-6163", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul2002 0:00:00.000", "0" ]
+, [ 1024, "8A303DE3-F8A4-4305-A5FE-570FC7AE85E5", 1024, 1477676201, "878954", 1477676289, "878954", null, "Batcheller Early Education Center", "Public Schools", "1620411", [ "{\"address\":\"201 Pratt St.\",\"city\":\"Winsted\",\"state\":\"CT\",\"zip\":\"06098-2061\"}", "41.910191", "-73.07506", null, false ], "06098-2061", "860-379-5423", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1231, "8DACABA3-9FF1-45F3-823B-48B389F2BB13", 1231, 1477676201, "878954", 1477676289, "878954", null, "A. I. Prince Technical High School", "CT Technical High Schools", "9001516", [ "{\"address\":\"401 Flatbush Ave.\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.742942", "-72.709302", null, false ], "06106", "860-951-7112", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2000 0:00:00.000", "0" ]
+, [ 1226, "96A68565-AF90-4347-A5D7-C25A39FF5080", 1226, 1477676201, "878954", 1477676289, "878954", null, "Department of Rehabilitation Services", "State Agencies", "3510015", [ "{\"address\":\"55 Farmington Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06105\"}", "41.76808", "-72.68776", null, false ], "06105", "860-424-4818", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2014 0:00:00.000", null ]
+, [ 1189, "9909A2DC-6653-4EF5-8AD2-03D214693A65", 1189, 1477676201, "878954", 1477676289, "878954", null, "Unified School District #1", "State Agencies", "3360015", [ "{\"address\":\"24 Wolcott Hill Road\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109\"}", "41.725516", "-72.673212", null, false ], "06109", "860-692-7537", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "01Jul2000 0:00:00.000", "0" ]
+, [ 1040, "9F756975-DC62-4B58-B802-79FD654362CF", 1040, 1477676201, "878954", 1477676289, "878954", null, "Windsor High School", "Public Schools", "1646111", [ "{\"address\":\"50 Sage Park Rd.\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095-3329\"}", "41.842492", "-72.657059", null, false ], "06095-3329", "860-687-2020", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 1216, "9F8A7436-98AB-45E9-895C-C97195CC669D", 1216, 1477676201, "878954", 1477676289, "878954", null, "Judicial Centers", "State Agencies", "3480015", [ "{\"address\":\"936 Silas Deane Hwy.\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109\"}", "41.69734", "-72.658086", null, false ], "06109", "860-721-2158", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "14May2009 0:00:00.000", "0" ]
+, [ 1014, "A23D185B-E9A1-441B-8BA3-29664A338B0E", 1014, 1477676201, "878954", 1477676289, "878954", null, "Wethersfield High School", "Public Schools", "1596111", [ "{\"address\":\"411 Wolcott Hill Rd.\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109-2798\"}", "41.708306", "-72.668755", null, false ], "06109-2798", "860-571-8200", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul1984 0:00:00.000", "0" ]
+, [ 1156, "A3FB31D8-861B-42F6-A85F-8D0877FFB851", 1156, 1477676201, "878954", 1477676289, "878954", null, "Riverside Magnet School at Goodwin College", "Regional Education Service Center Schools", "2450314", [ "{\"address\":\"29 Willowbrook Rd\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06118\"}", "41.745141", "-72.639556", null, false ], "06118", "860-434-4800", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2013 0:00:00.000", "1" ]
+, [ 1138, "AB891363-12DE-4524-9545-B74FA223DF2C", 1138, 1477676201, "878954", 1477676289, "878954", null, "Two Rivers Magnet Middle School", "Regional Education Service Center Schools", "2415014", [ "{\"address\":\"337 East River Dr.\",\"city\":\"East Hartford\",\"state\":\"CT\",\"zip\":\"06108\"}", "41.759392", "-72.656659", null, false ], "06108", "860-290-5320", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "01Jul2002 0:00:00.000", "1" ]
+, [ 1232, "C01AD44F-A482-4E0F-A2FF-81856B22DF89", 1232, 1477676201, "878954", 1477676289, "878954", null, "Howell Cheney Technical High School", "CT Technical High Schools", "9001616", [ "{\"address\":\"791 West Middle Tpke.\",\"city\":\"Manchester\",\"state\":\"CT\",\"zip\":\"06040\"}", "41.781068", "-72.560562", null, false ], "06040", "860-649-5396", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2000 0:00:00.000", "0" ]
+, [ 1133, "C14CF15F-3AE1-4294-A8FB-E0CA617F01D9", 1133, 1477676201, "878954", 1477676289, "878954", null, "International Magnet School for Global Citizenship", "Regional Education Service Center Schools", "2410414", [ "{\"address\":\"625 Chapel Road\",\"city\":\"South Windsor\",\"state\":\"CT\",\"zip\":\"06074\"}", "41.806542", "-72.595282", null, false ], "06074", "860-291-6001", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "02Sep2008 0:00:00.000", "1" ]
+, [ 1010, "C1C712EB-2FFB-412E-B926-B57E4530D5CD", 1010, 1477676201, "878954", 1477676289, "878954", null, "Charles Wright School", "Public Schools", "1591011", [ "{\"address\":\"186 Nott St.\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109-1720\"}", "41.716195", "-72.668367", null, false ], "06109-1720", "860-571-8350", "0", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1143, "C8BDD8DF-4423-4A68-A2AC-CD0230C66DBF", 1143, 1477676201, "878954", 1477676289, "878954", null, "Greater Hartford Academy of  the Arts High School - Full Time", "Regional Education Service Center Schools", "2416414", [ "{\"address\":\"15 Vernon St.\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.751395", "-72.683832", null, false ], "06106", "860-757-6321", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "05Aug2007 0:00:00.000", "1" ]
+, [ 1036, "CB7527D6-4667-4C00-8C96-452CFE5710C1", 1036, 1477676201, "878954", 1477676289, "878954", null, "Poquonock Elementary School", "Public Schools", "1640511", [ "{\"address\":\"1760 Poquonock Ave.\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095-1227\"}", "41.903922", "-72.679171", null, false ], "06095-1227", "860-687-2080", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1209, "D07F738B-9B93-4E68-B2E0-03BDDD51A69B", 1209, 1477676201, "878954", 1477676289, "878954", null, "Capitol Region Mental Health Center", "State Agency Facilities", "3370615", [ "{\"address\":\"500 Vine St.\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06112\"}", "41.795953", "-72.687633", null, false ], "06112", "860-262-7009", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2007 0:00:00.000", "0" ]
+, [ 1083, "D173C332-2C8B-41CC-89FC-F56755893840", 1083, 1477676201, "878954", 1477676289, "878954", null, "Lewis S. Mills High School", "Regional Schools", "2106112", [ "{\"address\":\"26 Lyon Rd.\",\"city\":\"Burlington\",\"state\":\"CT\",\"zip\":\"06013-1313\"}", "41.781187", "-72.989324", null, false ], "06013-1313", "860-673-0423", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "01Jul2002 0:00:00.000", "0" ]
+, [ 1188, "D3A46654-0214-4BAB-BD0A-462A058CBC00", 1188, 1477676201, "878954", 1477676291, "878954", null, "Department of Social Services", "State Agencies", "3320015", [ "{\"address\":\"25 Sigourney Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.764875", "-72.693924", null, false ], "06106", "860-424-5129", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2000 0:00:00.000", "0" ]
+, [ 1080, "D545F75D-9324-48EE-962B-B5994BF2993B", 1080, 1477676201, "878954", 1477676291, "878954", null, "Lake Garda Elementary School", "Regional Schools", "2100212", [ "{\"address\":\"61 Monce Rd.\",\"city\":\"Burlington\",\"state\":\"CT\",\"zip\":\"06013-2540\"}", "41.740888", "-72.907697", null, false ], "06013-2540", "860-673-2511", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "0", "01Jul2002 0:00:00.000", "0" ]
+, [ 1142, "DBFD29D1-6D4B-4259-AAD5-6F82D2468399", 1142, 1477676201, "878954", 1477676291, "878954", null, "Metropolitan Learning Center for Global and International Studies", "Regional Education Service Center Schools", "2416114", [ "{\"address\":\"1551 Blue Hills Ave.\",\"city\":\"Bloomfield\",\"state\":\"CT\",\"zip\":\"06002\"}", "41.871899", "-72.725367", null, false ], "06002", "860-242-7834", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "01Jul2000 0:00:00.000", "1" ]
+, [ 1129, "EBB45D13-E9B8-4CA8-9F83-7CF6DFE5734D", 1129, 1477676201, "878954", 1477676291, "878954", null, "Capitol Region Education Council", "Regional Education Service Center School Districts", "2410014", [ "{\"address\":\"111 Charter Oak Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.758569", "-72.668311", null, false ], "06106", "860-524-4063", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul2000 0:00:00.000", "0" ]
+, [ 1212, "EE3A08D4-BEE7-4D42-A943-214BD8969C1E", 1212, 1477676201, "878954", 1477676291, "878954", null, "Unified School District #2", "State Agencies", "3470015", [ "{\"address\":\"505 Hudson Street\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.756984", "-72.678702", null, false ], "06106", "860-550-6416", "0", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "1", "01Jul2000 0:00:00.000", "0" ]
+, [ 1139, "EF484A92-EB70-4EBC-8D95-059351A12A13", 1139, 1477676201, "878954", 1477676291, "878954", null, "Academy of Aerospace and Engineering", "Regional Education Service Center Schools", "2415114", [ "{\"address\":\"1101 Kennedy Road\",\"city\":\"Windsor\",\"state\":\"CT\",\"zip\":\"06095\"}", "41.896106", "-72.652093", null, false ], "06095", "860-757-6347", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "1", "1", "1", "25Aug2008 0:00:00.000", "1" ]
+, [ 1146, "F583D0B6-DEB2-4181-B051-DDDBD4512703", 1146, 1477676201, "878954", 1477676291, "878954", null, "Discovery Academy", "Regional Education Service Center Schools", "2418114", [ "{\"address\":\"176 Cumberland Avenue\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109\"}", "41.719249", "-72.675089", null, false ], "06109", "860-296-2090", "1", "1", "1", "1", "1", "1", "1", "0", "0", "0", "0", "0", "0", "0", "30Aug2011 0:00:00.000", "1" ]
+, [ 1017, "F7C53BB5-50F1-4BD7-B5C5-045EC08F56DB", 1017, 1477676201, "878954", 1477676292, "878954", null, "Hall Memorial School", "Public Schools", "1605111", [ "{\"address\":\"111 River Rd.\",\"city\":\"West Willington\",\"state\":\"CT\",\"zip\":\"06279-1842\"}", "41.85049", "-72.302264", null, false ], "06279-1842", "860-429-9391", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1", "0", "0", "0", "0", "01Jul1997 0:00:00.000", "0" ]
+, [ 1141, "F90F8385-5524-4593-8595-1B6734A996D5", 1141, 1477676201, "878954", 1477676292, "878954", null, "Greater Hartford Academy of the Arts Magnet Middle", "Regional Education Service Center Schools", "2415314", [ "{\"address\":\"140 Huyshope Avenue\",\"city\":\"Hartford\",\"state\":\"CT\",\"zip\":\"06106\"}", "41.755448", "-72.664054", null, false ], "06106", "860-724-0685", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "0", "0", "0", "0", "25Aug2012 0:00:00.000", "1" ]
+, [ 1013, "F9514105-1516-4E9D-9D55-10208801ECE2", 1013, 1477676201, "878954", 1477676292, "878954", null, "Silas Deane Middle School", "Public Schools", "1595211", [ "{\"address\":\"551 Silas Deane Hwy.\",\"city\":\"Wethersfield\",\"state\":\"CT\",\"zip\":\"06109-2216\"}", "41.71054", "-72.662979", null, false ], "06109-2216", "860-571-8300", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul1984 0:00:00.000", "0" ]
+, [ 1072, "F972C88A-D336-4421-8D90-866D56C7F12E", 1072, 1477676201, "878954", 1477676292, "878954", null, "Northwestern Regional Middle School", "Regional Schools", "2075112", [ "{\"address\":\"100 Battistoni Dr.\",\"city\":\"Winsted\",\"state\":\"CT\",\"zip\":\"06098-1899\"}", "41.911883", "-73.047684", null, false ], "06098-1899", "860-379-7243", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "0", "0", "0", "0", "01Jul2002 0:00:00.000", "0" ]
+ ]
+}
