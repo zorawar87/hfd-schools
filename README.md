@@ -2,7 +2,7 @@
 This project is a cartographic visualisation of schools in Hartford from 1984 to 2012.
 It was written as an experiment into data science and visualisation.
 
-https://moolenaar.cc/hfd-schools
+[Live Example](https://moolenaar.cc/hfd-schools)
 
 Here is what it looks like:
 ![picture alt](images/p1.png)
@@ -12,8 +12,8 @@ Here is what it looks like:
 
 ## Introduction to Data Science and Leaflet ##
 As someone new to data science and visualisation, I started off by learning the
-foundations of data science through a [https://lynda.com](Lynda.com) course, and 
-the [https://datavizforall.org](datavizforall) book by Prof. Dougherty, among other
+foundations of data science through a [Lynda.com](https://lynda.com) course, and 
+the [datavizforall](https://datavizforall.org) book by Prof. Dougherty, among other
 resources on the web. Besides becoming well acquanited with the Leaflet API, I developed
 varying levels understanding of technologies such as: d3.js, geojson,
 highcharts, openrefine, and various others related to GIS.
@@ -23,15 +23,15 @@ Since this project is inteded to be a dive into data visualisation, I didn't
 really have a story to tell; so I looked for Open data. 
 
 After browsing the catalogue of datasets available on
-[https://data.ct.gov](CT Data) and [https://data.hartford.gov](Hartford Data),
+[CTData](https://data.ct.gov) and [HartfordData](https://data.hartford.gov),
 I arbitrarily decided to visualise a timeline depicting the growth of the number
 of schools in CT. The dataset leveraged in this project is 
-[https://data.ct.gov/Education/CT-Schools-by-Type-w-Town-Boundaries/8pjp-nyd7](CT Schools by Type with Town Boundaries)
+[CT-Schools by Type with Town Boundaries](https://data.ct.gov/Education/CT-Schools-by-Type-w-Town-Boundaries/8pjp-nyd7)
 
 To my understanding, this "Open Data" is meant to be used by developers and
 analysts; however, it is very cryptically and terribly designed. In its JSON
 form, data that is meant to be "easy for humans to read and write"
-([https://json.org](JSON Spec.)), is rather cryptically designed. The datasets
+([JSON Spec](https://json.org)), is rather cryptically designed. The datasets
 I multiple datasets I attemped to work with, essentially dumped an unlabeled,
 cluttered representation of the data. Consequently, I preprocessed (and
 truncated) the data, for simplicity, ease of use, and readability.
@@ -105,11 +105,11 @@ TODO: sample row from data.json v. sample row from data.js
 
 ## Data Visualisation ##
 With a high level vision in mind, I implemented all functionality relying only
-on [http://leafletjs.com](leaflet's API) and [https://developer.mozilla.org/en-US/docs/Web/JavaScript](Vanilla JavaScript).
+on [Leaflet's API](http://leafletjs.com) and [Vanilla JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 ## Notes ##
   * Since I could not find an existing exportable geoJSON version of CT and
     Hartford's boundariers, I manually created them using
-    [https://geojson.io](geoJSON.io).
+    [geoJSON.io](https://geojson.io).
   * The map is not draggable because of a conflict with the slider. In a
     production version, this would be fixed.
