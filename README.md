@@ -19,7 +19,7 @@ varying levels understanding of technologies such as: d3.js, geojson,
 highcharts, openrefine, and various others related to GIS.
 
 ## Working with Open Data ##
-Since this project is inteded to be a dive into data visualisation, so I looked for Open data. 
+Since this project is intended to be a dive into data visualisation, so I looked for Open data. 
 
 After browsing the catalogue of datasets available on
 [CTData](https://data.ct.gov) and [HartfordData](https://data.hartford.gov),
