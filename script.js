@@ -36,6 +36,12 @@ L.geoJSON(ctFeature, {
   style: {color: "#000"},
 }).addTo(theMap);
 
+// HFD boundary map; the geoJSON has been manually created
+// using geojson.io
+L.geoJSON(hfdFeature, {
+  style: {color: "#777"},
+}).addTo(theMap);
+
 // manipulate "map control" to allow the user to manipulate confiugrations
 var userCfg = L.control();
 userCfg.onAdd = function (map) {
