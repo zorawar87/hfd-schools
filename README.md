@@ -2,7 +2,7 @@
 This project is a cartographic visualisation of schools in Hartford from 1984 to 2012.
 It has been written as an experiment into data science and visualisation.
 
-Demo: [moolenaar.cc/hfd-schools](http://moolenaar.cc/hfd-schools)
+Demo: [moolenaar.cc/data](http://moolenaar.cc/data)
 
 Here are some screenshots:
 ![picture alt](images/p1.png)
