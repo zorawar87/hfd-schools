@@ -1,4 +1,4 @@
-# Timeline of Schools in Hartford: 1984 - 2014 #
+# CVS: A Cartographic Visualtion of Schools (in Hartford, 1984 - 2014) #
 This project is a cartographic visualisation of schools in Hartford from 1984 to 2012.
 It has been written as an experiment into data science and visualisation.
 
@@ -34,8 +34,6 @@ write" ([JSON Spec.](https://json.org)), but rather, it is cryptically designed.
 datasets I worked with were essentially an unlabeled, cluttered
 representation of the information.
 Consequently, I processed (and truncated) the data through two passes: for simplicity, ease of use, and readability.
-
-
 
 ## Data Preprocessing ##
 After manually reading the raw data file, I located where relevant
@@ -103,6 +101,7 @@ By contrast, here is the same entry after the first pass of processing:
   "logo":"https://static1.squarespace.com/static/52045886e4b061002eaa753f/t/5317f617e4b0d5b56218ebce/1521216094515/%3Fformat=1500w"
 }
 ```
+Note: the "logo" attributed was manually added for hartford schools
 
 ## Data Visualisation ##
 I implemented all functionality relying only on [Leaflet's API](http://leafletjs.com)
