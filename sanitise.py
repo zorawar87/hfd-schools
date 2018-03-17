@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 
 import json
-from pprint import pprint
 
 raw = json.load(open('data.json'))
 
 formatted = {}
 formatted['schools'] = []
-
 
 for i in range(len(raw['data'])):
     formatted['schools'].append({
